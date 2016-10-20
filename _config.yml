@@ -1,6 +1,6 @@
 name: auto navbar test
 markdown: kramdown
 
-#kramdown:
-#  input: GFM
-#  hard_wrap: false
+kramdown:
+  input: GFM
+  hard_wrap: false
