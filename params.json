@@ -1,0 +1,6 @@
+{
+  "name": "Docgen",
+  "tagline": "testing gh-pages with automatically generated documentation",
+  "body": "# docgen\r\ntesting gh-pages with automatically generated documentation\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
