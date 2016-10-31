@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	{% include navbar.html %}
+	<main>
+		<article>
+            {{ content | replace: '<li>[ ]', '<li class = "box"><input type="checkbox" class="task-list-item-checkbox" disabled="">' | replace: '<li>[x]', '<li class = "box_done"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled="">'  }}
+		</article>
+	</main>
+</body>
+
+</html>
