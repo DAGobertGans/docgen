@@ -4,7 +4,7 @@ title: org.eclipse.elk.alg.layered
 ---
 #LegacyIds
 label | id | legacyIds
-----|----
+----|----|----
 Content Alignment | org.eclipse.elk.layered.contentAlignment | de.cau.cs.kieler.klay.layered.contentAlignment 
 Edge Label Placement Strategy | org.eclipse.elk.layered.edgeCenterLabelPlacementStrategy | de.cau.cs.kieler.edgeLabelPlacementStrategy 
 Edge Label Side Selection | org.eclipse.elk.layered.edgeLabelSideSelection | de.cau.cs.kieler.klay.layered.edgeLabelSideSelection 
