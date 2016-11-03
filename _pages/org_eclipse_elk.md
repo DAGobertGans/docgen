@@ -4,10 +4,10 @@ title: org.eclipse.elk
 ---
 
 
-| label | id | legacyIds |
-| ----- | -- | --------- |
-|Layout Algorithm | org.eclipse.elk.algorithm | |
-|Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate |
+label | id | legacyIds
+----- | -- | ---------
+Layout Algorithm | org.eclipse.elk.algorithm |
+Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate
 
 
 Aspect Ratio | org.eclipse.elk.aspectRatio | de.cau.cs.kieler.aspectRatio 
