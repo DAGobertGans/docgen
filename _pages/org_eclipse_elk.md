@@ -4,8 +4,8 @@ title: org.eclipse.elk
 ---
 
 
-label | id | legacyIds
------ | -- | ---------
+label | idd | legacyIds
+----- | --- | ---------
 Layout Algorithm | org.eclipse.elk.algorithm |
 Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate
 
