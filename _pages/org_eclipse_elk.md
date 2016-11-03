@@ -3,6 +3,7 @@ layout: page
 title: org.eclipse.elk
 ---
 #LegacyIds
+
 |label | id | legacyIds|
 |----|----|----|
 |Layout Algorithm | org.eclipse.elk.algorithm | |
