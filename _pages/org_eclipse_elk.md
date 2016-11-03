@@ -2,10 +2,10 @@
 layout: page
 title: org.eclipse.elk
 ---
-#LegacyIds
 
-|label | id | legacyIds|
-|----|----|----|
+
+| label | id | legacyIds |
+| ----- | -- | --------- |
 |Layout Algorithm | org.eclipse.elk.algorithm | |
 |Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate |
 
