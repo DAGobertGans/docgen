@@ -1,6 +1,6 @@
 ---
 layout: page
-title: h-lorem-markdown
+title: lorem-markdown
 ---
 # Occidit oculis patrium
 

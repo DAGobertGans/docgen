@@ -2,14 +2,12 @@
 layout: page
 title: org.eclipse.elk
 ---
-
+# LegacyIds
 
 label | id | legacyIds
------ | --- | ---------
+----|----|----
 Layout Algorithm | org.eclipse.elk.algorithm |
 Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate
-
-
 Aspect Ratio | org.eclipse.elk.aspectRatio | de.cau.cs.kieler.aspectRatio 
 Bend Points | org.eclipse.elk.bendPoints | de.cau.cs.kieler.bendPoints 
 Debug Mode | org.eclipse.elk.debugMode | de.cau.cs.kieler.debugMode 
