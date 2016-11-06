@@ -2,12 +2,34 @@
 layout: page
 title: org.eclipse.elk
 ---
+# Algorithms
+
+### Fixed Layout
+
+### Box Layout
+
+![alt text](images/box_layout.png)
+
+### Randomizer
+
+![alt text](images/random.png)
+
+
+# Categories
+
+* Layered
+* Orthogonal
+* Force
+* Circle
+* Tree
+* Planar
+
 # LegacyIds
 
 label | id | legacyIds
 ----|----|----
-Layout Algorithm | org.eclipse.elk.algorithm |
-Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate
+Layout Algorithm | org.eclipse.elk.algorithm | 
+Alignment | org.eclipse.elk.alignment | de.cau.cs.kieler.animate 
 Aspect Ratio | org.eclipse.elk.aspectRatio | de.cau.cs.kieler.aspectRatio 
 Bend Points | org.eclipse.elk.bendPoints | de.cau.cs.kieler.bendPoints 
 Debug Mode | org.eclipse.elk.debugMode | de.cau.cs.kieler.debugMode 
