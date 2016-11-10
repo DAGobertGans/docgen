@@ -28,7 +28,6 @@ markdown: kramdown
 sass:
   sass_dir: _sass
 include: ['_pages']
-include: ['_elk-wiki']
 kramdown:
   input: GFM
 gems:
