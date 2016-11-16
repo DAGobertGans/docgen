@@ -1,6 +1,10 @@
+---
+layout: page
+title: Layout View Support
+---
 If UI components are installed, ELK contributes the _Layout View_ to the workbench:
 
-[[graphics/layout_view.png|alt=ELK Layout View]]
+![ELK Layout View](graphics/layout_view.png)
 
 The layout view is a kind of properties view specialized for setting layout properties. It listens to selection changes and, if it recognizes that something is an element of a graph ELK could layout, allows users to customize the layout options used to do so.
 

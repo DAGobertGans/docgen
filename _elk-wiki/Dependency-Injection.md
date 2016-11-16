@@ -1,3 +1,7 @@
+---
+layout: page
+title: Dependency Injection
+---
 As you have learned, the basic connection between a diagram editor and the Eclipse Layout Kernel is established through an `ILayoutSetup` implementation registered with an extension point. What an `ILayoutSetup` basically does is to provide a Google Guice dependency injector that is then used to instantiate all the classes that play a part in making layout happen in the Eclipse layer.
 
 If you have not used dependency injection yet: ELK will ask the injector to retrieve an implementation of a particular type, and the injector knows which implementation to retrieve. It is the mapping between types and implementations that you can customize in the injector your `ILayoutSetup` returns. By having it retrieve different implementations, you can change how ELK behaves.

@@ -1,3 +1,7 @@
+---
+layout: page
+title: Sidebar
+---
 **[[Getting Started]]**
 * [Downloads](https://www.eclipse.org/elk/downloads.php)
 * [[Layout for GMF Editors]]

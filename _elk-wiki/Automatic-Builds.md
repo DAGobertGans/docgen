@@ -1,4 +1,8 @@
-Since `.elkm` files result in code being generated, you may not want to check that code into your repository. Instead, the code should probably be generated as part of your automatic build. Indeed, the ELK metadata language compiler is available through a Maven repository. You can find the repository URLs on our [Downloads](https://www.eclipse.org/elk/downloads.php) page. Note that we provide a separate repository for nightly builds and for each release.
+---
+layout: page
+title: Automatic Builds
+---
+Since `.melk` files result in code being generated, you may not want to check that code into your repository. Instead, the code should probably be generated as part of your automatic build. Indeed, the ELK metadata language compiler is available through a Maven repository. You can find the repository URLs on our [Downloads](https://www.eclipse.org/elk/downloads.php) page. Note that we provide a separate repository for nightly builds and for each release.
 
 To use the compiler, add the following to your `pom.xml`:
 

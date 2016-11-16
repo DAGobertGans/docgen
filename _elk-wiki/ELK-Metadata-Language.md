@@ -1,4 +1,8 @@
-As described [[in other parts of the documentation|Using Plain Java Layout]], the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
+---
+layout: page
+title: ELK Metadata Language
+---
+As described [in other parts of the documentation](Using-Plain-Java-Layout), the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
 
 * An `ILayoutMetaDataProvider` that contains `IProperty` objects for each layout option you declare, along with a method that registers these options and layout algorithm categories with the `LayoutMetaDataService`. It is this class that needs to be registered with ELK's extension point.
 * One `ILayoutMetaDataProvider` for each algorithm you declare. This contains one `IProperty` object for each layout option your algorithm supports (with the configured default value), as well as a method that registers your algorithm and its supported options with the `LayoutMetaDataService`. You should use the `IProperty` objects in this class to retrieve layout option values to ensure that you get correct defaults if an option is not set. These classes do not have to be registered with ELK's extension point because they are automatically registered through the main metadata class.
@@ -11,19 +15,23 @@ This page explains how to write a metadata file. (Imagine the guy that narrates 
 Follow these steps to add a metadata file to your layout algorithm project:
 
 1. Right-click your project's base package (which should have the same name as your plug-in project), and click _New - File_.
-1. Give your file a sensible name (which is usually the name of your algorithm), and add the file extension `.elkm`. Click _Finish_.
+1. Give your file a sensible name (which is usually the name of your algorithm), and add the file extension `.melk`. Click _Finish_.
 1. If Eclipse asks you whether you want to add the _Xtext nature_ to your project, click _Yes_.
-1. The ELK SDK needs some basic information in your file to generate your `ILayoutMetaDataProvider`:
-    ```
-    package package.the.elkm.file.is.in
+1. The ELK SDK needs some basic information in your file to generate your
+   `ILayoutMetaDataProvider`:
+
+   ```
+    package package.the.melk.file.is.in
     
     bundle {
         // Change the following line according to what you want the
         // package and name of your meta data provider to be
         metadataClass properties.AwesomeOptions
     }
-    ```
+   ```
+    
     See below for details on what this is doing.
+    
 1. Open the `MANIFEST.MF` file, located in your plug-in's `META_INF` folder. The _Plug-in Manifest Editor_ will open up, which is divided into several pages that you can switch between using the controls at the bottom of the editor.
 1. Open the editor's _Extensions_ tab.
 1. Click the _Add..._ button, look for the `org.eclipse.elk.core.layoutProviders` extension point and click _Finish_.
@@ -40,7 +48,7 @@ The ELK metadata language contains everything you need to make the following inf
 * Which layout options your plug-in contributes, and which layout options your algorithms support.
 * Which layout algorithm categories your plug-in contributes, and which of them your algorithms belong to.
 
-The basic layout of an `elkm` file looks something like this:
+The basic layout of a `melk` file looks something like this:
 
 ```
 <package declaration>
@@ -82,7 +90,7 @@ bundle {
 
 ## Options
 
-While [[this section of our documentation|Layout Options]] describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described [[in the aforementioned piece of documentation|Layout Properties]] to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
+While [this section of our documentation](Layout-Options) describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described **TODO**[in the aforementioned piece of documentation](Layout-Properties) to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
 
 ```
 // The option's ID, appended to the idPrefix declared in the bundle information
@@ -247,9 +255,9 @@ Three details deserve more explanation:
 
     The main class that provides the entry to your layout algorithm. This must be a subclass of `AbstractLayoutProvider` and may have to be imported in your metadata file's import section. `AbstractLayoutProvider` has an `initialize(String)` method that expects a `String` parameter to customize its behavior. You can define that parameter's value for your algorithm like this:
 
-    ```
-    algorithm myAlgorithm(TheAbstractLayoutProviderSubclass#TheParamterValue)
-    ```
+  ```
+  algorithm myAlgorithm(TheAbstractLayoutProviderSubclass#TheParamterValue)
+  ```
 
 * `features`
     
@@ -272,7 +280,7 @@ Three details deserve more explanation:
 
     An option support declaration looks like this:
 
-    ```
-    supports the.option.id          // Standard default value
-    supports the.option.id = 42     // Overridden default value
-    ```
+  ```
+  supports the.option.id          // Standard default value
+  supports the.option.id = 42     // Overridden default value
+  ```

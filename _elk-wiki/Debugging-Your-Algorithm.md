@@ -1,9 +1,13 @@
+---
+layout: page
+title: Debugging Your Algorithm
+---
 The Eclipse Layout Kernel SDK provides two views built specifically for debugging your layout algorithm: the layout graph view and the execution time view.
 
 
 # Layout Graph View
 
-[[graphics/layout_graph_view.png|alt=Layout Graph View]]
+![Layout Graph View](graphics/layout_graph_view.png)
 
 The layout graph view registers with the `DiagramLayoutEngine` to be notified whenever a layout run finishes and displays the layout graph exactly as it comes out of the layout algorithm, without any modifications applied. Use this view to check if your algorithm works and if you got the coordinate system right.
 
@@ -14,11 +18,11 @@ Open the layout graph view by clicking _Window_ -> _Show View_ -> _Other_ and se
 
 # Layout Time View
 
-[[graphics/layout_time_view.png|alt=Layout Time View]]
+![Layout Time View](graphics/layout_time_view.png)
 
 The layout time view registers with the `DiagramLayoutEngine` to be notified whenever a layout run finishes and displays which steps the layout run consisted of and, if enabled, how much time each step took to run. Measuring these execution times has to be explicitly enabled in the preferences:
 
-[[graphics/layout_time_view_enable.png|alt=Enabling layout time measurements]]
+![Enabling layout time measurements](graphics/layout_time_view_enable.png)
 
 Once enabled, the view displays two values for each item: the _time_ and the _local time_. The former is the amount of time spent for an item and all of its sub-items. Local time is the time spent on the item alone, without any sub-items (this value is omitted for items that do not have any sub-items, since it would be equal to the normal time value anyway).
 

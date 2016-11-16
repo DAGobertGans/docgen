@@ -10,14 +10,14 @@ To represent graphs that should be laid out, the Eclipse Layout Kernel provides 
 
 This is a simple example graph along with the terminology that goes with it.
 
-[[graphics/graph_graph.png|alt=Terminology relating to graphs.]]
+![Terminology relating to graphs.](graphics/graph_graph.png)
 
 
 ## Inclusion Trees
 
 Inclusion trees capture the hierarchical structure of a graph. See below for the inclusion tree of the graph we just saw, along with the terminology that goes with it.
 
-[[graphics/graph_inclusionTree.png|alt=Terminology relating to the inclusion tree.]]
+![Terminology relating to the inclusion tree.](graphics/graph_inclusionTree.png)
 
 
 ## Definitions

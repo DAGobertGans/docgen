@@ -1,3 +1,7 @@
+---
+layout: page
+title: Tool Developers
+---
 This section of the documentation is meant for tool developers who simply want to add automatic layout capabilities to their tool. Despite of its name, the Eclipse Layout Kernel is not limited to Eclipse-based applications, but can also be used in pure Java applications and even in JavaScript applications (although this is not yet available in ELK itself).
 
 
@@ -5,7 +9,7 @@ This section of the documentation is meant for tool developers who simply want t
 
 At its basic, ELK is structured in three layers, each adding more convenience functionality to lower layers:
 
-[[graphics/layout_layers.png|alt=ELK Layers]]
+![ELK Layers](graphics/layout_layers.png)
 
 The rest of this page tries to give you an idea of what each layer contains and when you would want to use it.
 

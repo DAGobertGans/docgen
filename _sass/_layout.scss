@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background: #f7eedd;/*quarterspanishwhite;*/
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
@@ -10,7 +11,7 @@ h1,
 h2,
 h3 {
 	font-weight: 600;
-	color: $heading-font-color;
+	color: $font-color;
 	font-family: $heading-font;
 	line-height: 1.5;
 }
@@ -28,12 +29,12 @@ h2 {
 }
 a {
 	color: $link-color;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 a:visited {
 	color: $link-color;
 	text-decoration: underline;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 a:hover {
 	color: $link-hover-color;
@@ -58,7 +59,7 @@ time {
 	color: #898989;
 }
 .container {
-	max-width: $content-width;
+	max-width: 300px;//$content-width;
 	margin: 0 auto;
 }
 
@@ -129,7 +130,7 @@ footer {
 	padding: 40px;
 }
 aside {
-    float: left;
+    //float: left;
     margin: 5px 0px;
     ul {
         list-style-type: none;
@@ -141,7 +142,7 @@ aside {
     li a {
         display: block;
         color: $link-color;
-	    font-weight: bold;
+	    /*font-weight: bold;*/
         padding: 8px 16px;
         text-decoration: none;
     }
@@ -150,4 +151,26 @@ aside {
 		text-decoration: none;
 		color: $main;
     }
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    //-webkit-flex-wrap: wrap;
+    //flex-wrap: wrap;
+    //width: $content-width;
+    //height: 250px;
+    //background-color: lightgrey;
+}
+
+.flex-main {
+    //background-color: cornflowerblue;
+    width: $content-width;
+    //height: 100px;
+    //margin: 10px;
+}
+.flex-nav {
+    //background-color: cornflowerblue;
+    width: 300px;
+    //height: 100px;
+    //margin: 10px;
 }

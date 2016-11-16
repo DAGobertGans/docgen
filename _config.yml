@@ -27,7 +27,7 @@ github_username:  DAGobertGans
 markdown: kramdown
 sass:
   sass_dir: _sass
-include: ['_pages']
+include: ['_pages', '_elk-wiki']
 kramdown:
   input: GFM
 gems:

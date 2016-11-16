@@ -1,3 +1,7 @@
+---
+layout: page
+title: Getting Eclipse Ready
+---
 Developing layout algorithms requires you to have the _Eclipse Layout Kernel SDK_ installed in your Eclipse installation. Follow these steps to install it:
 
 1. Start Eclipse and select _Help - Install New Software..._ from the menu.

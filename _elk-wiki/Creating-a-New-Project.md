@@ -1,3 +1,7 @@
+---
+layout: page
+title: Creating a New Project
+---
 Layout algorithms are developed as _Eclipse Plug-in Projects_. There's a few things to setup to get your project ready, which is what we will work through here.
 
 > **If you have nothing better to do...**

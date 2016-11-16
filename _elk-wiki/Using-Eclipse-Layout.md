@@ -1,3 +1,7 @@
+---
+layout: page
+title: Using Eclipse Layout
+---
 Compared to the two more basic variants, using the Eclipse Layout Kernel within Eclipse introduces the largest amount of general magic to the process. This page explains the basics of how the layout kernel performs automatic layouts. Based on these information, sub-pages then describe how to integrate your tool with the layout kernel by filling in the details the overview decided to best leave out.
 
 

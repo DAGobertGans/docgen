@@ -1,3 +1,7 @@
+---
+layout: page
+title: Layout Options
+---
 Layout options are key-value pairs that configure the behavior of automatic layout algorithms. Let's look at all of the involved classes first before we concentrate on how to actually use them in practice.
 
 
@@ -90,6 +94,6 @@ That is the reason why the first example above does not use `CoreOptions.DEBUG_M
 
 # Defining Properties
 
-Most of the time, algorithm developers do not have to worry about declaring their own `IProperty` objects. The options officially supported by a layout algorithm constitute a part of the algorithm's interface and metadata and are thus declared in the algorithm's [[metadata file|ELK Metadata Language]]. The ELK SDK automatically generates the required `IProperty` instances.
+Most of the time, algorithm developers do not have to worry about declaring their own `IProperty` objects. The options officially supported by a layout algorithm constitute a part of the algorithm's interface and metadata and are thus declared in the algorithm's [metadata file](ELK-Metadata-Language). The ELK SDK automatically generates the required `IProperty` instances.
 
 The only time custom `IProperty` instances have to be declared is when an algorithm uses internal properties during its execution to pass information between its different phases. Internal options do not have to be declared anywhere since they are not supposed to be set by users anyway. To define such options, simply add new `Property` instances to any one of your internally used classes. Use these instances to set and retrieve options.
