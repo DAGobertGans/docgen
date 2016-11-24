@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tool Developers
+type: wiki
 ---
 This section of the documentation is meant for tool developers who simply want to add automatic layout capabilities to their tool. Despite of its name, the Eclipse Layout Kernel is not limited to Eclipse-based applications, but can also be used in pure Java applications and even in JavaScript applications (although this is not yet available in ELK itself).
 

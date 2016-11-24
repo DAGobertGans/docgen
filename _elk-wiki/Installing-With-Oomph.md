@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installing With Oomph
+type: wiki
 ---
 Setting up an Eclipse to work on the _Eclipse Layout Kernel_ is comparatively easy when using the Oomph Installer. Follow this step-by-step guide for great glory.
 

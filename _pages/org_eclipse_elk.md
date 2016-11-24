@@ -1,6 +1,7 @@
 ---
 layout: page
 title: org.eclipse.elk
+type: test
 ---
 # Algorithms
 
@@ -8,7 +9,7 @@ title: org.eclipse.elk
 
 ### Box Layout
 
-![alt text](images/box_layout.png)
+![](images/box_layout.png)
 
 ### Randomizer
 

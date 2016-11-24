@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Development Workflow
+type: wiki
 ---
 Once you [have everything set up](Setting-Everything-Up) it is time to start getting your hands at the code. The exact steps depend on how you have set up your development environment and your taste in things (and stuff), but here's what you will generally want to do.
 

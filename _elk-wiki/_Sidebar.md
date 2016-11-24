@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sidebar
+type: wiki
 ---
 **[[Getting Started]]**
 * [Downloads](https://www.eclipse.org/elk/downloads.php)

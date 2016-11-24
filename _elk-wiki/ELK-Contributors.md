@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ELK Contributors
+type: wiki
 ---
 You want to contribute to the _Eclipse Layout Kernel_? Excellent! Here's what you need to do:
 

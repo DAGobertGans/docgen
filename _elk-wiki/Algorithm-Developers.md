@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Algorithm Developers
+type: wiki
 ---
 While the layout algorithms implemented in ELK already cover a wide range of layout styles, your particular application may have more specific requirements. In these cases, it may become necessary to implement your own layout algorithm, which is what this part of the documentation is all about.
 

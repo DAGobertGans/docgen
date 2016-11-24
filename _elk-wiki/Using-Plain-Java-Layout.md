@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Using Plain Java Layout
+type: wiki
 ---
 While layout algorithms [can be called directly](Using-Algorithms-Directly), it is usually a better idea not to do so except in the simplest of cases. There are several reasons for that:
 

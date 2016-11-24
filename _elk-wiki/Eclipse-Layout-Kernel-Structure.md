@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Eclipse Layout Kernel Structure
+type: wiki
 ---
 At its core, the Eclipse Layout Kernel consists of three layers of technology.
 

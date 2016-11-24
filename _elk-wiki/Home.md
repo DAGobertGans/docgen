@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+type: wiki
 ---
 The *Eclipse Layout Kernel (ELK)* implements an infrastructure
 to connect diagram editors or viewers

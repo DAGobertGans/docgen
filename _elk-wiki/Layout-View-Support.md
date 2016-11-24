@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Layout View Support
+type: wiki
 ---
 If UI components are installed, ELK contributes the _Layout View_ to the workbench:
 

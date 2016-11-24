@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Layout Options
+type: wiki
 ---
 Layout options are key-value pairs that configure the behavior of automatic layout algorithms. Let's look at all of the involved classes first before we concentrate on how to actually use them in practice.
 

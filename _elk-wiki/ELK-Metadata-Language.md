@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ELK Metadata Language
+type: wiki
 ---
 As described [in other parts of the documentation](Using-Plain-Java-Layout), the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
 

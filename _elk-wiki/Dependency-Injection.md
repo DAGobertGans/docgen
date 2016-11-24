@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dependency Injection
+type: wiki
 ---
 As you have learned, the basic connection between a diagram editor and the Eclipse Layout Kernel is established through an `ILayoutSetup` implementation registered with an extension point. What an `ILayoutSetup` basically does is to provide a Google Guice dependency injector that is then used to instantiate all the classes that play a part in making layout happen in the Eclipse layer.
 
