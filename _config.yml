@@ -30,5 +30,6 @@ sass:
 include: ['_pages', '_elk-wiki']
 kramdown:
   input: GFM
+  hard_wrap: true
 gems:
   - jemoji
