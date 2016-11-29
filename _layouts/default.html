@@ -3,8 +3,20 @@
 {% include head.html %}
 
 <body>
+<div class="flex-container">
 	{% include header.html %}
-    <div class="flex-container">
+	
+	<div class="flex-top-nav">
+	    <nav>
+	        <ul>
+	            <li><a {% if page.type == null %}class="active"{% endif %} href="{{ "/_pages/org_eclipse_elk" | prepend: site.baseurl }}">gen (no type)</a></li>
+	            <li><a {% if page.type == "algorithm" %}class="active"{% endif %} href="{{ "/_pages/org-eclipse-elk-layered" | prepend: site.baseurl }}">Algorithms</a></li>
+	            <li><a {% if page.type == "option" %}class="active"{% endif %} href="{{ "/_pages/org-eclipse-elk-layered-compaction-connectedComponents" | prepend: site.baseurl }}">Options</a></li>
+	            <li><a {% if page.type == "wiki" %}class="active"{% endif %} href="{{ "/_elk-wiki/Home" | prepend: site.baseurl }}">Wiki</a></li>
+	        </ul>
+	    </nav>
+	</div>
+	
 	    {% include navbar.html %}
 	    <div class="flex-main">
 	    <main>
@@ -13,7 +25,7 @@
 		    </article>
 	    </main>
 	    </div>
-	</div>
+</div>
 </body>
 
 </html>

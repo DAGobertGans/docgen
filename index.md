@@ -1,5 +1,6 @@
 ---
 layout: default
+type: index
 ---
 
-![alt text](elk.png)
+![alt text](elklipse.svg)

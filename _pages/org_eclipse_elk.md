@@ -1,7 +1,6 @@
 ---
 layout: page
 title: org.eclipse.elk
-type: test
 ---
 # Algorithms
 
