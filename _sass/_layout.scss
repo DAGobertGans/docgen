@@ -4,7 +4,7 @@ body {
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
-	line-height: 1.6;
+	//line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
 h1,
@@ -13,9 +13,10 @@ h3 {
 	font-weight: 600;
 	color: $font-color;
 	font-family: $heading-font;
-	line-height: 1.5;
+	//line-height: 1.5;
 }
 h1 {
+    margin: 7px;
 	color: $main;
 	font-size: 2.5em;
 	a,
@@ -42,7 +43,7 @@ a:hover {
 }
 header {
 	background: $header;
-	padding: 0px 15px;
+	padding: 0px 10px;
 	text-align: center;
 
 	//height: 15vh;
@@ -180,6 +181,10 @@ aside {
     flex: 100%;
     //background-color: #ddd;
 
+    a:hover {
+	    color: $link-hover-color;
+	    text-decoration: underline;
+    }
     ul {
         //position: fixed;
         //top: 0;
