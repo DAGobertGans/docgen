@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Graph Data Structure
 type: wiki
+parent: Tool Developers
 ---
 To represent graphs that should be laid out, the Eclipse Layout Kernel provides a robust EMF-based data structure. This page is about describing that graph data structure. Please note that the graph data structure is scheduled to be changed soon. Once that change is complete, we will provide more documentation here. Until that time, however, please refer [to our old documentation](http://rtsys.informatik.uni-kiel.de/confluence/x/U4EN). What we do have here already is a list of terms.
 

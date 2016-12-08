@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wiki
 title: Installing With Oomph
 type: wiki
 ---

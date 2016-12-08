@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: ELK Metadata Language
 type: wiki
+parent: Algorithm Developers
 ---
 As described [in other parts of the documentation](Using-Plain-Java-Layout), the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
 
@@ -91,7 +92,7 @@ bundle {
 
 ## Options
 
-While [this section of our documentation](Layout-Options) describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described **TODO**[in the aforementioned piece of documentation](Layout-Properties) to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
+While [this section of our documentation](Layout-Options) describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described <span class="inactive">**TODO**[in the aforementioned piece of documentation](Layout-Properties)</span> to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
 
 ```
 // The option's ID, appended to the idPrefix declared in the bundle information

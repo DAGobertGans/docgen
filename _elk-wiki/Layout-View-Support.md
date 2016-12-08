@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Layout View Support
 type: wiki
+parent: Using Eclipse Layout
 ---
 If UI components are installed, ELK contributes the _Layout View_ to the workbench:
 

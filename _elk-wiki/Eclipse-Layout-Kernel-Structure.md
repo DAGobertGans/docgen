@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: wiki
 title: Eclipse Layout Kernel Structure
 type: wiki
 ---

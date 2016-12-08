@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Creating a New Project
 type: wiki
+parent: Algorithm Developers
 ---
 Layout algorithms are developed as _Eclipse Plug-in Projects_. There's a few things to setup to get your project ready, which is what we will work through here.
 

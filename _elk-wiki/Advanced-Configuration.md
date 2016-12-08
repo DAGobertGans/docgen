@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Advanced Configuration
 type: wiki
+parent: Using Eclipse Layout
 ---
 What we have learned so far about how automatic layout in Eclipse works was comparatively straightforward: the diagram layout engine looks for a diagram layout connector to get its hands at a configured KGraph, invokes the recursive graph layout engine, and asks the diagram layout connector to apply the results back to the original diagram. As you will have guessed, things _can_ become quite a bit more complex than that.
 

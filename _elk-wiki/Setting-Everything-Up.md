@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Setting Everything Up
 type: wiki
+parent: ELK Contributors
 ---
 Before you can start development, follow this list of steps. Not doing so may result in us having to reject your contributions, which would make everyone sad.
 

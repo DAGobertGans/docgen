@@ -17,14 +17,7 @@
 	    </nav>
 	</div>
 	
-	    {% include navbar.html %}
-	    <div class="flex-main">
-	    <main>
-		    <article>
-                {{ content | replace: '<li>[ ]', '<li class = "box"><input type="checkbox" class="task-list-item-checkbox" disabled="">' | replace: '<li>[x]', '<li class = "box_done"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled="">'  }}
-		    </article>
-	    </main>
-	    </div>
+	{{ content }}
 </div>
 </body>
 

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Connecting to ELK
 type: wiki
+parent: Using Eclipse Layout
 ---
 In our [our basic introduction to automatic layout in Eclipse](Using-Eclipse-Layout), we have seen how the diagram layout engine needs someone to extract a proper KGraph from whatever layout is invoked on. This is what you, as a tool developer, have to supply. While there are already implementations for different graph editing frameworks to build upon, this page describes how doing so from scratch works.
 

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Debugging Your Algorithm
 type: wiki
+parent: Algorithm Developers
 ---
 The Eclipse Layout Kernel SDK provides two views built specifically for debugging your layout algorithm: the layout graph view and the execution time view.
 

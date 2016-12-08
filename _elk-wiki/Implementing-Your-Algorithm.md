@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Implementing Your Algorithm
 type: wiki
+parent: Algorithm Developers
 ---
 Once everything is set up, it is time to actually implement your algorithm. The problem your layout algorithm has to solve can be summarized as follows: given an input graph (possibly with existing coordinates), compute coordinates for all graph elements and routings for all edges (subject to layout properties the graph is annotated with) and annotate the layout graph accordingly. Note that the input graph defines the layout problem, but also carries the resulting coordinate assignment after your algorithm has executed.
 
@@ -18,7 +19,7 @@ void layout(KNode layoutGraph, IElkProgressMonitor progressMonitor);
 
 Let's go through the parameters in reverse order (because!). The `progressMonitor` parameter should be used to track progress and check if the user wants to cancel the layout operation. Actually canceling when the user wants to cancel is one of those features that will help your software stand out from many other programs, so take this opportunity to shine!
 
-The `layoutGraph` parameter is more important, however. It defines the layout problem your algorithm should solve, in several ways. First, it defines the structure of the graph to be laid out: which nodes exist, how are they connected, and so on. Second, each graph element can have **TODO**[layout properties](Layout-Properties) attached to it that are supposed to influence what your layout algorithm does with them. And third, each element may have pre-existing [coordinates or bend points](Coordinate-System) associated with it that your algorithm may want to make use of. Those existing coordinates will be overwritten by your algorithm to hold the new, computed coordinates.
+The `layoutGraph` parameter is more important, however. It defines the layout problem your algorithm should solve, in several ways. First, it defines the structure of the graph to be laid out: which nodes exist, how are they connected, and so on. Second, each graph element can have <span class="inactive">**TODO**[layout properties](Layout-Properties)</span> attached to it that are supposed to influence what your layout algorithm does with them. And third, each element may have pre-existing [coordinates or bend points](Coordinate-System) associated with it that your algorithm may want to make use of. Those existing coordinates will be overwritten by your algorithm to hold the new, computed coordinates.
 
 Note that the layout graph may contain nodes that themselves contain further nodes. By default, layout algorithms are only supposed to compute coordinates for the direct children of the `layoutGraph` and then set the size for the `layoutGraph` itself. However, if your layout algorithm supports hierarchical layout, and if hierarchical layout is requested (which is done through the `CoreOptions.HIERARCHY_HANDLING` layout option), you will also compute coordinates for children of children.
 

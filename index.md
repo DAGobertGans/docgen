@@ -2,5 +2,6 @@
 layout: default
 type: index
 ---
-
-![alt text](elklipse.svg)
+<div style="margin: auto;">
+<img src="elklipse.svg" alt="elklipse" />
+</div>

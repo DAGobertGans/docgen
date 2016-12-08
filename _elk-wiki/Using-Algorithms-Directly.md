@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Using Algorithms Directly
 type: wiki
+parent: Tool Developers
 ---
 All layout algorithms implemented in the Eclipse Layout Kernel can be called directly. To do so, you must have an instance of our KGraph data structure that can be fed to the layout algorithm, which will then compute a layout for the graph's elements.
 

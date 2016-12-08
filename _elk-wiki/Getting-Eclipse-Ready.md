@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: wiki
 title: Getting Eclipse Ready
 type: wiki
+parent: Algorithm Developers
 ---
 Developing layout algorithms requires you to have the _Eclipse Layout Kernel SDK_ installed in your Eclipse installation. Follow these steps to install it:
 
