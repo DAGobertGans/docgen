@@ -1,29 +1,29 @@
 ---
 layout: page
-title: Edge Node Spacing Factor
+title: Edge Spacing Factor
 type: option
 ---
-org.eclipse.elk.layered.spacing.edgeNodeSpacingFactor
+org.eclipse.elk.layered.spacing.edgeSpacingFactor
 
 bundle.label: 
 bundle.idPrefix: org.eclipse.elk.layered
 bundle.targetClass: properties.LayeredMetaDataProvider
-name: edgeNodeSpacingFactor
+name: edgeSpacingFactor
 deprecated: false
 advanced: true
 programmatic: false
 output: false
 global: false
 type: JvmParameterizedTypeReference: float
-label: Edge Node Spacing Factor
+label: Edge Spacing Factor
 description: Factor by which the object spacing is multiplied to arrive at the minimal spacing between
-            an edge and a node.
+            edges.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@2b0b487f (value: 0.5f)
+default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@4cbae0c6 (value: 0.5f)
 lower bound: <XFeatureCallImplCustom>.greaterThan(<XNumberLiteralImpl>)
 upper bound: 
 targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.edgeNodeSpacingFactor]
+legady ids: [de.cau.cs.kieler.klay.layered.edgeSpacingFactor]
 dependencies:
 
 ## Group(s)
