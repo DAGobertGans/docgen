@@ -7,7 +7,9 @@
 	{% include header.html %}
 	
 	<div class="flex-top-nav">
+	
 	    <nav>
+
 	        <ul>
 	            <li><a {% if page.type == null %}class="active"{% endif %} href="{{ "/_pages/org_eclipse_elk" | prepend: site.baseurl }}">gen (no type)</a></li>
 	            <li><a {% if page.type == "algorithm" %}class="active"{% endif %} href="{{ "/_pages/org-eclipse-elk-layered" | prepend: site.baseurl }}">Algorithms</a></li>
