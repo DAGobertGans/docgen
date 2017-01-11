@@ -14,16 +14,16 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: High Degree Node Maximum Tree Height
 description: Maximum height of a subtree connected to a high degree node to be moved to separate layers.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@5cee868b (value: 5)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@63ef2b5e (value: 0)
-upper bound: 
+default value:  5
+lower bound:  0
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.highDegreeNode.treeHeight]
-dependencies: (org.eclipse.elk.layered.highDegreeNodes.treatment == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@765e8da (isTrue: true))
+dependencies: (org.eclipse.elk.layered.highDegreeNodes.treatment == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@3087b061 (isTrue: true))
 
 ## Group(s)
 highDegreeNodes 

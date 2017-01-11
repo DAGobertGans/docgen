@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: Sausage Folding
 description: Whether long sausages should be folded up nice and tight.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@19c74168 (isTrue: false)
-lower bound: 
-upper bound: 
+default value:  false
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.sausageFolding]
 dependencies: (org.eclipse.elk.layered.layering.strategy == <XFeatureCallImplCustom>.LONGEST_PATH)

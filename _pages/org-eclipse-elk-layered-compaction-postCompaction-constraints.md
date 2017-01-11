@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.intermediate.compaction.ConstraintCalculationStrategy
+type: org.eclipse.elk.alg.layered.intermediate.compaction.ConstraintCalculationStrategy
 label: Post Compaction Constraint Calculation
 description: Specifies whether and how post-process compaction is applied.
 documentation: 
-default value: <XFeatureCallImplCustom>.SCANLINE
-lower bound: 
-upper bound: 
+default value:  ConstraintCalculationStrategy.SCANLINE
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.postCompaction.constraints]
 dependencies:

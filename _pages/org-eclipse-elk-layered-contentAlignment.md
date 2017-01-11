@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: java.util.EnumSet<JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.ContentAlignment>
+type: java.util.EnumSet&lt;org.eclipse.elk.alg.layered.properties.ContentAlignment&gt;
 label: Content Alignment
 description: Specifies how the content of compound nodes is to be aligned, e.g. top-left.
 documentation: 
-default value: <XFeatureCallImplCustom>.noneOf(<XFeatureCallImplCustom>)
-lower bound: 
-upper bound: 
+default value:  EnumSet.noneOf(ContentAlignment)
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.contentAlignment]
 dependencies:

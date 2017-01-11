@@ -14,13 +14,13 @@ advanced: false
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.EdgeLabelSideSelection
+type: org.eclipse.elk.alg.layered.properties.EdgeLabelSideSelection
 label: Edge Label Side Selection
 description: Method to decide on edge label sides.
 documentation: 
-default value: <XFeatureCallImplCustom>.ALWAYS_DOWN
-lower bound: 
-upper bound: 
+default value:  EdgeLabelSideSelection.ALWAYS_DOWN
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.edgeLabelSideSelection]
 dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.ORTHOGONAL)

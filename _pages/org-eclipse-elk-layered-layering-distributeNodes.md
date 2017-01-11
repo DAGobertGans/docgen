@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: Distribute Nodes (Deprecated)
 description: Whether wide nodes should be distributed to several layers.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@76b63921 (isTrue: false)
-lower bound: 
-upper bound: 
+default value:  false
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.distributeNodes]
 dependencies:

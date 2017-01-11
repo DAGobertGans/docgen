@@ -14,13 +14,13 @@ advanced: false
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.SelfLoopPlacement
+type: org.eclipse.elk.alg.layered.properties.SelfLoopPlacement
 label: Spline Self-Loop Placement
 description: 
 documentation: 
-default value: <XFeatureCallImplCustom>.NORTH_STACKED
-lower bound: 
-upper bound: 
+default value:  SelfLoopPlacement.NORTH_STACKED
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.splines.selfLoopPlacement]
 dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.SPLINES)

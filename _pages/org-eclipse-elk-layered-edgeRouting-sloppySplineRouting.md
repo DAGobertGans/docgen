@@ -14,13 +14,13 @@ advanced: false
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: Sloppy Spline Routing
 description: Use less spline control points at the start and end of an edge. Might lead to crossings edge/node overlap.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@2c821ee4 (isTrue: true)
-lower bound: 
-upper bound: 
+default value:  true
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: []
 dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.SPLINES)

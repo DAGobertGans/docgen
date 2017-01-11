@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.FixedAlignment
+type: org.eclipse.elk.alg.layered.properties.FixedAlignment
 label: Fixed Alignment
 description: Tells the BK node placer to use a certain alignment instead of taking the optimal result.
 documentation: 
-default value: <XFeatureCallImplCustom>.NONE
-lower bound: 
-upper bound: 
+default value:  FixedAlignment.NONE
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.fixedAlignment]
 dependencies: (org.eclipse.elk.layered.nodePlacement.strategy == <XFeatureCallImplCustom>.BRANDES_KOEPF)

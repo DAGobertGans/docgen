@@ -214,9 +214,10 @@ aside.wiki-aside {
           background: linear-gradient(to bottom, $main 0%, $main 20%, transparent 20%, transparent 40%, $main 40%, $main 60%, transparent 60%, transparent 80%, $main 80%, $main 100%); //Gradient Hamburger
           cursor: pointer;
           display: block;
-          //float: left;
+          //float: top;
           height: 30px;
           margin: 1em;
+          margin-top: -30px;
           width: 30px;
         }
     }

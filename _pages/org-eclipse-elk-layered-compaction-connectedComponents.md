@@ -14,16 +14,16 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: Connected Components Compaction
 description: Tries to further compact components (disconnected sub-graphs).
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@3baac456 (isTrue: false)
-lower bound: 
-upper bound: 
+default value:  false
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.components.compact]
-dependencies: (org.eclipse.elk.separateConnectedComponents == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@13a91765 (isTrue: true))
+dependencies: (org.eclipse.elk.separateConnectedComponents == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@632c46cb (isTrue: true))
 
 ## Group(s)
 compaction 

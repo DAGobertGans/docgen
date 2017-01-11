@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.EdgeLabelPlacementStrategy
+type: org.eclipse.elk.core.options.EdgeLabelPlacementStrategy
 label: Edge Label Placement Strategy
 description: Determines in which layer center labels of long edges should be placed.
 documentation: 
-default value: <XFeatureCallImplCustom>.CENTER
-lower bound: 
-upper bound: 
+default value:  EdgeLabelPlacementStrategy.CENTER
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.edgeLabelPlacementStrategy]
 dependencies:

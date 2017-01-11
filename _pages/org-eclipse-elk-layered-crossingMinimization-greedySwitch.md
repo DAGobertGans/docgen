@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.GreedySwitchType
+type: org.eclipse.elk.alg.layered.properties.GreedySwitchType
 label: Greedy Switch Crossing Minimization
 description: Greedy Switch strategy for crossing minimization.
 documentation: 
-default value: <XFeatureCallImplCustom>.TWO_SIDED
-lower bound: 
-upper bound: 
+default value:  GreedySwitchType.TWO_SIDED
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.greedySwitch]
 dependencies:

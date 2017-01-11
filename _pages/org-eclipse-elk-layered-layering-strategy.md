@@ -14,13 +14,13 @@ advanced: false
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.p2layers.LayeringStrategy
+type: org.eclipse.elk.alg.layered.p2layers.LayeringStrategy
 label: Node Layering Strategy
 description: Strategy for node layering.
 documentation: 
-default value: <XFeatureCallImplCustom>.NETWORK_SIMPLEX
-lower bound: 
-upper bound: 
+default value:  LayeringStrategy.NETWORK_SIMPLEX
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.nodeLayering]
 dependencies:

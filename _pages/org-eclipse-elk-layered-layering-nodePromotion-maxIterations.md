@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: Max Node Promotion Iterations
 description: Limits the number of iterations for node promotion.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@86fc853 (value: 0)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@78e3fe1 (value: 0)
-upper bound: 
+default value:  0
+lower bound:  0
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.nodePromotionBoundary]
 dependencies: (org.eclipse.elk.layered.layering.nodePromotion.strategy == )

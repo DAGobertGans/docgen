@@ -278,7 +278,7 @@ Three details deserve more explanation:
 
 * `supportedOptions`
 
-    Algorithms declare which layout options they support, either with their default values as originally declared or with overridden default values. Each supported options ends up as an `IProperty` constant in the algorithm's layout meta data provider, complete with correct default values. These constants should be used to retrieve option values from within the algorithm code.
+    Algorithms declare which layout options they support, either with their default values as originally declared or with overridden default values. Each supported option ends up as an `IProperty` constant in the algorithm's layout meta data provider, complete with correct default values. These constants should be used to retrieve option values from within the algorithm code.
 
     An option support declaration looks like this:
 

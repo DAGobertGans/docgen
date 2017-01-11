@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: High Degree Node Treatment
 description: Makes room around high degree nodes to place leafs and trees.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@cfed2c3 (isTrue: false)
-lower bound: 
-upper bound: 
+default value:  false
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.highDegreeNode.treatment]
 dependencies:

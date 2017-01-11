@@ -14,13 +14,13 @@ advanced: false
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.p3order.CrossingMinimizationStrategy
+type: org.eclipse.elk.alg.layered.p3order.CrossingMinimizationStrategy
 label: Crossing Minimization Strategy
 description: Strategy for crossing minimization.
 documentation: 
-default value: <XFeatureCallImplCustom>.LAYER_SWEEP
-lower bound: 
-upper bound: 
+default value:  CrossingMinimizationStrategy.LAYER_SWEEP
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.crossMin]
 dependencies:

@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.WideNodesStrategy
+type: org.eclipse.elk.alg.layered.properties.WideNodesStrategy
 label: Wide Nodes on Multiple Layers
 description: Strategy to distribute wide nodes over multiple layers.
 documentation: 
-default value: <XFeatureCallImplCustom>.OFF
-lower bound: 
-upper bound: 
+default value:  WideNodesStrategy.OFF
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.wideNodesOnMultipleLayers]
 dependencies:

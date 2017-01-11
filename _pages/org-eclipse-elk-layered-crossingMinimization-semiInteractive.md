@@ -14,16 +14,16 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: boolean
+type: boolean
 label: Semi-Interactive Crossing Minimization
 description: Preserves the order of nodes within a layer but still minimizes 
 			 crossings between edges connecting long edge dummies. 
 			 Requires a crossing minimization strategy that is able to 
 			 process 'in-layer' constraints.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@560044b8 (isTrue: false)
-lower bound: 
-upper bound: 
+default value:  false
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: []
 dependencies:

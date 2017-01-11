@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: Upper Bound On Width [MinWidth Layerer]
 description: Defines a loose upper bound on the width of the MinWidth layerer.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@6b5ae216 (value: 4)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@12732121 (value: 1)
-upper bound: 
+default value:  4
+lower bound:  1
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.minWidthUpperBoundOnWidth]
 dependencies: (org.eclipse.elk.layered.layering.strategy == <XFeatureCallImplCustom>.EXP_MIN_WIDTH)

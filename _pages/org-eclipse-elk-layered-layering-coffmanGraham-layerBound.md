@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: Layer Bound
 description: The maximum number of nodes allowed per layer.
 documentation: 
-default value: <XFeatureCallImplCustom>.MAX_VALUE
-lower bound: 
-upper bound: 
+default value:  Integer.MAX_VALUE
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: []
 dependencies: (org.eclipse.elk.layered.layering.strategy == <XFeatureCallImplCustom>.COFFMAN_GRAHAM)

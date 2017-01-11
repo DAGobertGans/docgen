@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.properties.LayerConstraint
+type: org.eclipse.elk.alg.layered.properties.LayerConstraint
 label: Layer Constraint
 description: Determines a constraint on the placement of the node regarding the layering.
 documentation: 
-default value: <XFeatureCallImplCustom>.NONE
-lower bound: 
-upper bound: 
+default value:  LayerConstraint.NONE
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.layerConstraint]
 dependencies:

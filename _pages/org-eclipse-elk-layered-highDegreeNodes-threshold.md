@@ -14,16 +14,16 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: High Degree Node Threshold
 description: Whether a node is considered to have a high degree.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@26293428 (value: 16)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@5cbb92e4 (value: 0)
-upper bound: 
+default value:  16
+lower bound:  0
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.highDegreeNode.threshold]
-dependencies: (org.eclipse.elk.layered.highDegreeNodes.treatment == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@5ffc0840 (isTrue: true))
+dependencies: (org.eclipse.elk.layered.highDegreeNodes.treatment == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@1b779ec0 (isTrue: true))
 
 ## Group(s)
 highDegreeNodes 

@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy
+type: org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy
 label: Node Promotion Strategy
 description: Reduces number of dummy nodes after layering phase (if possible).
 documentation: 
-default value: <XFeatureCallImplCustom>.NONE
-lower bound: 
-upper bound: 
+default value:  NodePromotionStrategy.NONE
+lower bound: *not defined*
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.nodePromotion]
 dependencies:

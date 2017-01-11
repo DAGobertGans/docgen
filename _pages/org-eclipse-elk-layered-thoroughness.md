@@ -14,13 +14,13 @@ advanced: true
 programmatic: false
 output: false
 global: false
-type: JvmParameterizedTypeReference: int
+type: int
 label: Thoroughness
 description: How much effort should be spent to produce a nice layout.
 documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@1c935484 (value: 7)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@11110caa (value: 1)
-upper bound: 
+default value:  7
+lower bound:  1
+upper bound: *not defined*
 targets: [parents]
 legady ids: [de.cau.cs.kieler.klay.layered.thoroughness]
 dependencies:
