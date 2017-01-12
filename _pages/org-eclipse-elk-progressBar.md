@@ -3,28 +3,18 @@ layout: page
 title: Progress Bar
 type: option
 ---
-org.eclipse.elk.progressBar
+global
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: progressBar
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: true
-type: JvmParameterizedTypeReference: boolean
-label: Progress Bar
-description: Whether a progress bar shall be displayed during layout computations.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@4df7132b (isTrue: false)
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: [de.cau.cs.kieler.progressBar]
-dependencies:
+**Identifier:** org.eclipse.elk.progressBar
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Whether a progress bar shall be displayed during layout computations.
 
+**Legacy Id:** de.cau.cs.kieler.progressBar
 

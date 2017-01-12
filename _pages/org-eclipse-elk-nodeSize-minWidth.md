@@ -3,28 +3,15 @@ layout: page
 title: Minimum Width
 type: option
 ---
-org.eclipse.elk.nodeSize.minWidth
+deprecated, advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: minWidth
-deprecated: true
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: float
-label: Minimum Width
-description: 
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@45f5326a (value: 0)
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@3c403b59 (value: 0f)
-upper bound: 
-targets: [nodes]
-legady ids: []
-dependencies:
+**Identifier:** org.eclipse.elk.nodeSize.minWidth
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** double
+**Default Value:**  0  (not specific to an algorithm)
+**Lower Bound:**  0.0
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
-nodeSize 
+**Containing Groups:** [nodeSize](org-eclipse-elk-nodeSize)
 

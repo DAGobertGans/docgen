@@ -3,28 +3,18 @@ layout: page
 title: Edge Label Placement Strategy
 type: option
 ---
-org.eclipse.elk.layered.edgeCenterLabelPlacementStrategy
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: edgeCenterLabelPlacementStrategy
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.core.options.EdgeLabelPlacementStrategy
-label: Edge Label Placement Strategy
-description: Determines in which layer center labels of long edges should be placed.
-documentation: 
-default value:  EdgeLabelPlacementStrategy.CENTER
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.edgeLabelPlacementStrategy]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.edgeCenterLabelPlacementStrategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.core.options.EdgeLabelPlacementStrategy
+**Default Value:**  EdgeLabelPlacementStrategy.CENTER  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Determines in which layer center labels of long edges should be placed.
 
+**Legacy Id:** de.cau.cs.kieler.edgeLabelPlacementStrategy
 

@@ -3,28 +3,16 @@ layout: page
 title: Spline Self-Loop Placement
 type: option
 ---
-org.eclipse.elk.layered.edgeRouting.selfLoopPlacement
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: selfLoopPlacement
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.properties.SelfLoopPlacement
-label: Spline Self-Loop Placement
-description: 
-documentation: 
-default value:  SelfLoopPlacement.NORTH_STACKED
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.splines.selfLoopPlacement]
-dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.SPLINES)
+**Identifier:** org.eclipse.elk.layered.edgeRouting.selfLoopPlacement
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.properties.SelfLoopPlacement
+**Default Value:**  SelfLoopPlacement.NORTH_STACKED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-edgeRouting 
+**Legacy Id:** de.cau.cs.kieler.klay.layered.splines.selfLoopPlacement
+**Dependencies:** org.eclipse.elk.edgeRouting
+**Containing Groups:** [edgeRouting](org-eclipse-elk-layered-edgeRouting)
 

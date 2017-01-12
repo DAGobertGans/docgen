@@ -1,0 +1,23 @@
+---
+layout: page
+title: Priority
+type: option
+---
+advanced
+
+**Identifier:** org.eclipse.elk.priority
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** int
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes, edges
+
+### Description
+Defines the priority of an object; its meaning depends on the specific layout algorithm and the context where it is used.
+
+**Legacy Id:** de.cau.cs.kieler.priority
+
+## Additional Documentation
+
+Used by the 'simple row graph placer' to decide which connected components to place first. A component's priority is the sum of the node priorities.

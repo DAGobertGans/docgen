@@ -3,28 +3,18 @@ layout: page
 title: Crossing Minimization Strategy
 type: option
 ---
-org.eclipse.elk.layered.crossingMinimization.strategy
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: strategy
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.p3order.CrossingMinimizationStrategy
-label: Crossing Minimization Strategy
-description: Strategy for crossing minimization.
-documentation: 
-default value:  CrossingMinimizationStrategy.LAYER_SWEEP
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.crossMin]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.crossingMinimization.strategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.p3order.CrossingMinimizationStrategy
+**Default Value:**  CrossingMinimizationStrategy.LAYER_SWEEP  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-crossingMinimization 
+### Description
+Strategy for crossing minimization.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.crossMin
+**Containing Groups:** [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
 

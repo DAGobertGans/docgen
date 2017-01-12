@@ -3,29 +3,18 @@ layout: page
 title: Priority
 type: option
 ---
-org.eclipse.elk.priority
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: priority
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: int
-label: Priority
-description: Defines the priority of an object; its meaning depends on the specific layout algorithm
-		and the context where it is used.
-documentation: 
-default value: 
-lower bound: 
-upper bound: 
-targets: [nodes, edges]
-legady ids: [de.cau.cs.kieler.priority]
-dependencies:
+**Identifier:** org.eclipse.elk.priority
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** int
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes, edges
 
-## Group(s)
+### Description
+Defines the priority of an object; its meaning depends on the specific layout algorithm and the context where it is used.
 
+**Legacy Id:** de.cau.cs.kieler.priority
 

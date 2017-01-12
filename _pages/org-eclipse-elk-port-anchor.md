@@ -3,28 +3,19 @@ layout: page
 title: Port Anchor Offset
 type: option
 ---
-org.eclipse.elk.port.anchor
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: anchor
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.math.KVector
-label: Port Anchor Offset
-description: The offset to the port position where connections shall be attached.
-documentation: 
-default value: 
-lower bound: 
-upper bound: 
-targets: [ports]
-legady ids: [de.cau.cs.kieler.portAnchor]
-dependencies:
+**Identifier:** org.eclipse.elk.port.anchor
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.math.KVector
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** ports
 
-## Group(s)
-port 
+### Description
+The offset to the port position where connections shall be attached.
+
+**Legacy Id:** de.cau.cs.kieler.portAnchor
+**Containing Groups:** [port](org-eclipse-elk-port)
 

@@ -3,28 +3,18 @@ layout: page
 title: Sloppy Spline Layer Spacing Factor
 type: option
 ---
-org.eclipse.elk.layered.edgeRouting.sloppySplineLayerSpacing
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: sloppySplineLayerSpacing
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: float
-label: Sloppy Spline Layer Spacing Factor
-description: Spacing factor for routing area between layers when using sloppy spline routing.
-documentation: 
-default value:  0.4f
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: []
-dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.SPLINES) (org.eclipse.elk.layered.edgeRouting.sloppySplineRouting == org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@59706f0a (isTrue: true))
+**Identifier:** org.eclipse.elk.layered.edgeRouting.sloppySplineLayerSpacing
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** double
+**Default Value:**  0.4  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-edgeRouting 
+### Description
+Spacing factor for routing area between layers when using sloppy spline routing.
+
+**Dependencies:** org.eclipse.elk.edgeRouting, org.eclipse.elk.layered.edgeRouting.sloppySplineRouting
+**Containing Groups:** [edgeRouting](org-eclipse-elk-layered-edgeRouting)
 

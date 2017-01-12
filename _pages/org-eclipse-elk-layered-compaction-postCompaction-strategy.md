@@ -3,28 +3,19 @@ layout: page
 title: Post Compaction Strategy
 type: option
 ---
-org.eclipse.elk.layered.compaction.postCompaction.strategy
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: strategy
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.intermediate.compaction.GraphCompactionStrategy
-label: Post Compaction Strategy
-description: Specifies whether and how post-process compaction is applied.
-documentation: 
-default value:  GraphCompactionStrategy.NONE
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.postCompaction]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.compaction.postCompaction.strategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.intermediate.compaction.GraphCompactionStrategy
+**Default Value:**  GraphCompactionStrategy.NONE  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-compaction postCompaction 
+### Description
+Specifies whether and how post-process compaction is applied.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.postCompaction
+**Containing Groups:** [compaction](org-eclipse-elk-layered-compaction) -> [postCompaction](org-eclipse-elk-layered-compaction-postCompaction)
 

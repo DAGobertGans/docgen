@@ -3,30 +3,19 @@ layout: page
 title: Port Side
 type: option
 ---
-org.eclipse.elk.port.side
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: side
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.PortSide
-label: Port Side
-description: The side of a node on which a port is situated. This option must be set if 'Port
-			Constraints' is set to FIXED_SIDE or FIXED_ORDER and no specific positions are given
-			for the ports.
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [ports]
-legady ids: [de.cau.cs.kieler.portSide]
-dependencies:
+**Identifier:** org.eclipse.elk.port.side
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.PortSide
+**Default Value:**  PortSide.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** ports
 
-## Group(s)
-port 
+### Description
+The side of a node on which a port is situated. This option must be set if 'Port Constraints' is set to FIXED_SIDE or FIXED_ORDER and no specific positions are given for the ports.
+
+**Legacy Id:** de.cau.cs.kieler.portSide
+**Containing Groups:** [port](org-eclipse-elk-port)
 

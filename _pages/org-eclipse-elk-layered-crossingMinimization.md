@@ -3,10 +3,11 @@ layout: page
 title: crossingMinimization
 type: group
 ---
-org.eclipse.elk.layered.crossingMinimization
+**Identifier:** org.eclipse.elk.layered.crossingMinimization
 ## children
 
 strategy
+hierarchicalSweepiness
 greedySwitch
 semiInteractive
 

@@ -3,28 +3,19 @@ layout: page
 title: Font Name
 type: option
 ---
-org.eclipse.elk.font.name
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: name
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: java.lang.String
-label: Font Name
-description: Font name used for a label.
-documentation: 
-default value: 
-lower bound: 
-upper bound: 
-targets: [labels]
-legady ids: [de.cau.cs.kieler.fontName]
-dependencies:
+**Identifier:** org.eclipse.elk.font.name
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** java.lang.String
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** labels
 
-## Group(s)
-font 
+### Description
+Font name used for a label.
+
+**Legacy Id:** de.cau.cs.kieler.fontName
+**Containing Groups:** [font](org-eclipse-elk-font)
 

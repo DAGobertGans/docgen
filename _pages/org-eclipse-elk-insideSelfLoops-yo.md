@@ -3,28 +3,19 @@ layout: page
 title: Inside Self Loop
 type: option
 ---
-org.eclipse.elk.insideSelfLoops.yo
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: yo
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: boolean
-label: Inside Self Loop
-description: Whether a self loop should be routed inside a node instead of around that node.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@3b71881d (isTrue: false)
-lower bound: 
-upper bound: 
-targets: [edges]
-legady ids: [de.cau.cs.kieler.selfLoopInside]
-dependencies:
+**Identifier:** org.eclipse.elk.insideSelfLoops.yo
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** edges
 
-## Group(s)
-insideSelfLoops 
+### Description
+Whether a self loop should be routed inside a node instead of around that node.
+
+**Legacy Id:** de.cau.cs.kieler.selfLoopInside
+**Containing Groups:** [insideSelfLoops](org-eclipse-elk-insideSelfLoops)
 

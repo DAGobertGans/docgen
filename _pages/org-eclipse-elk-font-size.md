@@ -3,28 +3,19 @@ layout: page
 title: Font Size
 type: option
 ---
-org.eclipse.elk.font.size
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: size
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: int
-label: Font Size
-description: Font size used for a label.
-documentation: 
-default value: 
-lower bound: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@62d20ff7 (value: 1)
-upper bound: 
-targets: [labels]
-legady ids: [de.cau.cs.kieler.fontSize]
-dependencies:
+**Identifier:** org.eclipse.elk.font.size
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** int
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:**  1
+**Upper Bound:** *not defined*
+**Applies To:** labels
 
-## Group(s)
-font 
+### Description
+Font size used for a label.
+
+**Legacy Id:** de.cau.cs.kieler.fontSize
+**Containing Groups:** [font](org-eclipse-elk-font)
 

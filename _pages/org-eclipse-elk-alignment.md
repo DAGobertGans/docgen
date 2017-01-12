@@ -3,29 +3,18 @@ layout: page
 title: Alignment
 type: option
 ---
-org.eclipse.elk.alignment
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: alignment
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.Alignment
-label: Alignment
-description: Alignment of the selected node relative to other nodes,
-		the exact meaning depends on the used algorithm.
-documentation: 
-default value: <XFeatureCallImplCustom>.AUTOMATIC
-lower bound: 
-upper bound: 
-targets: [nodes]
-legady ids: [de.cau.cs.kieler.animate]
-dependencies:
+**Identifier:** org.eclipse.elk.alignment
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.Alignment
+**Default Value:**  Alignment.AUTOMATIC  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
+### Description
+Alignment of the selected node relative to other nodes, the exact meaning depends on the used algorithm.
 
+**Legacy Id:** de.cau.cs.kieler.animate
 

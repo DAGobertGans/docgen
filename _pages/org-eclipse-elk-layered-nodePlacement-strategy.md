@@ -3,28 +3,18 @@ layout: page
 title: Node Placement Strategy
 type: option
 ---
-org.eclipse.elk.layered.nodePlacement.strategy
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: strategy
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.p4nodes.NodePlacementStrategy
-label: Node Placement Strategy
-description: Strategy for node placement.
-documentation: 
-default value:  NodePlacementStrategy.BRANDES_KOEPF
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.nodePlacement]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.nodePlacement.strategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.p4nodes.NodePlacementStrategy
+**Default Value:**  NodePlacementStrategy.BRANDES_KOEPF  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-nodePlacement 
+### Description
+Strategy for node placement.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.nodePlace
+**Containing Groups:** [nodePlacement](org-eclipse-elk-layered-nodePlacement)
 

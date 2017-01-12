@@ -3,28 +3,19 @@ layout: page
 title: Port Alignment (North)
 type: option
 ---
-org.eclipse.elk.portAlignment.north
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: north
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.PortAlignment
-label: Port Alignment (North)
-description: Defines how ports on the northern side are placed, overriding the node's general port alignment.
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [nodes]
-legady ids: [de.cau.cs.kieler.portAlignment.north]
-dependencies:
+**Identifier:** org.eclipse.elk.portAlignment.north
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.PortAlignment
+**Default Value:**  PortAlignment.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
-portAlignment 
+### Description
+Defines how ports on the northern side are placed, overriding the node's general port alignment.
+
+**Legacy Id:** de.cau.cs.kieler.portAlignment.north
+**Containing Groups:** [portAlignment](org-eclipse-elk-portAlignment)
 

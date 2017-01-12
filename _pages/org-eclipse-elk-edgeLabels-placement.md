@@ -3,28 +3,19 @@ layout: page
 title: Edge Label Placement
 type: option
 ---
-org.eclipse.elk.edgeLabels.placement
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: placement
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.EdgeLabelPlacement
-label: Edge Label Placement
-description: Gives a hint on where to put edge labels.
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [labels]
-legady ids: [de.cau.cs.kieler.edgeLabelPlacement]
-dependencies:
+**Identifier:** org.eclipse.elk.edgeLabels.placement
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.EdgeLabelPlacement
+**Default Value:**  EdgeLabelPlacement.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** labels
 
-## Group(s)
-edgeLabels 
+### Description
+Gives a hint on where to put edge labels.
+
+**Legacy Id:** de.cau.cs.kieler.edgeLabelPlacement
+**Containing Groups:** [edgeLabels](org-eclipse-elk-edgeLabels)
 

@@ -3,28 +3,18 @@ layout: page
 title: Feedback Edges
 type: option
 ---
-org.eclipse.elk.layered.feedbackEdges
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: feedbackEdges
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: boolean
-label: Feedback Edges
-description: Whether feedback edges should be highlighted by routing around the nodes.
-documentation: 
-default value:  false
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.feedBackEdges]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.feedbackEdges
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Whether feedback edges should be highlighted by routing around the nodes.
 
+**Legacy Id:** de.cau.cs.kieler.klay.layered.feedBackEdges
 

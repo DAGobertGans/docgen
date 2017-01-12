@@ -3,28 +3,17 @@ layout: page
 title: Eades Repulsion
 type: option
 ---
-org.eclipse.elk.force.repulsion
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.force
-bundle.targetClass: properties.ForceMetaDataProvider
-name: repulsion
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: float
-label: Eades Repulsion
-description: Factor for repulsive forces in Eades' model.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@606cbf12 (value: 5.0f)
-lower bound: <XFeatureCallImplCustom>.greaterThan(<XNumberLiteralImpl>)
-upper bound: 
-targets: [parents]
-legady ids: []
-dependencies: (org.eclipse.elk.force.model == <XFeatureCallImplCustom>.EADES)
+**Identifier:** org.eclipse.elk.force.repulsion
+**Meta Data Provider:** properties.ForceMetaDataProvider
+**Type:** double
+**Default Value:**  5.0  (not specific to an algorithm)
+**Lower Bound:**  ExclusiveBounds.greaterThan(0)
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Factor for repulsive forces in Eades' model.
 
+**Dependencies:** org.eclipse.elk.force.model
 

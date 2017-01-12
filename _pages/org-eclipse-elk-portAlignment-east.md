@@ -3,28 +3,19 @@ layout: page
 title: Port Alignment (East)
 type: option
 ---
-org.eclipse.elk.portAlignment.east
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: east
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.PortAlignment
-label: Port Alignment (East)
-description: Defines how ports on the eastern side are placed, overriding the node's general port alignment.
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [nodes]
-legady ids: [de.cau.cs.kieler.portAlignment.east]
-dependencies:
+**Identifier:** org.eclipse.elk.portAlignment.east
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.PortAlignment
+**Default Value:**  PortAlignment.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
-portAlignment 
+### Description
+Defines how ports on the eastern side are placed, overriding the node's general port alignment.
+
+**Legacy Id:** de.cau.cs.kieler.portAlignment.east
+**Containing Groups:** [portAlignment](org-eclipse-elk-portAlignment)
 

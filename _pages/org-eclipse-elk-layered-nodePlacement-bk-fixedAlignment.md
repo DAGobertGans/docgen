@@ -1,30 +1,22 @@
 ---
 layout: page
-title: Fixed Alignment
+title: BK Fixed Alignment
 type: option
 ---
-org.eclipse.elk.layered.nodePlacement.bk.fixedAlignment
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: fixedAlignment
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.properties.FixedAlignment
-label: Fixed Alignment
-description: Tells the BK node placer to use a certain alignment instead of taking the optimal result.
-documentation: 
-default value:  FixedAlignment.NONE
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.fixedAlignment]
-dependencies: (org.eclipse.elk.layered.nodePlacement.strategy == <XFeatureCallImplCustom>.BRANDES_KOEPF)
+**Identifier:** org.eclipse.elk.layered.nodePlacement.bk.fixedAlignment
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.properties.FixedAlignment
+**Default Value:**  FixedAlignment.NONE  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-nodePlacement bk 
+### Description
+Tells the BK node placer to use a certain alignment (out of its four) instead of the one producing the smallest height, or the combination of all four.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.fixedAlignment
+**Dependencies:** org.eclipse.elk.layered.nodePlacement.strategy
+**Containing Groups:** [nodePlacement](org-eclipse-elk-layered-nodePlacement) -> [bk](org-eclipse-elk-layered-nodePlacement-bk)
 

@@ -3,28 +3,19 @@ layout: page
 title: Layout Partitioning
 type: option
 ---
-org.eclipse.elk.partitioning.activate
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: activate
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: java.lang.Boolean
-label: Layout Partitioning
-description: Whether to activate partitioned layout.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@536e7efb (isTrue: false)
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: [de.cau.cs.kieler.layoutPartitions]
-dependencies:
+**Identifier:** org.eclipse.elk.partitioning.activate
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** java.lang.Boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-partitioning 
+### Description
+Whether to activate partitioned layout.
+
+**Legacy Id:** de.cau.cs.kieler.layoutPartitions
+**Containing Groups:** [partitioning](org-eclipse-elk-partitioning)
 

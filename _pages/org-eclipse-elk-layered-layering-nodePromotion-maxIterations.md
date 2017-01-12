@@ -3,28 +3,20 @@ layout: page
 title: Max Node Promotion Iterations
 type: option
 ---
-org.eclipse.elk.layered.layering.nodePromotion.maxIterations
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: maxIterations
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: int
-label: Max Node Promotion Iterations
-description: Limits the number of iterations for node promotion.
-documentation: 
-default value:  0
-lower bound:  0
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.nodePromotionBoundary]
-dependencies: (org.eclipse.elk.layered.layering.nodePromotion.strategy == )
+**Identifier:** org.eclipse.elk.layered.layering.nodePromotion.maxIterations
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** int
+**Default Value:**  0  (not specific to an algorithm)
+**Lower Bound:**  0
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-layering nodePromotion 
+### Description
+Limits the number of iterations for node promotion.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.nodePromotionBoundary
+**Dependencies:** org.eclipse.elk.layered.layering.nodePromotion.strategy
+**Containing Groups:** [layering](org-eclipse-elk-layered-layering) -> [nodePromotion](org-eclipse-elk-layered-layering-nodePromotion)
 

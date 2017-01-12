@@ -3,29 +3,17 @@ layout: page
 title: Direction
 type: option
 ---
-org.eclipse.elk.direction
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: direction
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.Direction
-label: Direction
-description: Overall direction of edges: horizontal (right / left) or
-		vertical (down / up).
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: [de.cau.cs.kieler.direction]
-dependencies:
+**Identifier:** org.eclipse.elk.direction
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.Direction
+**Default Value:**  Direction.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Overall direction of edges: horizontal (right / left) or vertical (down / up).
 
+**Legacy Id:** de.cau.cs.kieler.direction
 

@@ -3,28 +3,19 @@ layout: page
 title: Node Promotion Strategy
 type: option
 ---
-org.eclipse.elk.layered.layering.nodePromotion.strategy
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: strategy
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy
-label: Node Promotion Strategy
-description: Reduces number of dummy nodes after layering phase (if possible).
-documentation: 
-default value:  NodePromotionStrategy.NONE
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.nodePromotion]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.layering.nodePromotion.strategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy
+**Default Value:**  NodePromotionStrategy.NONE  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-layering nodePromotion 
+### Description
+Reduces number of dummy nodes after layering phase (if possible).
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.nodePromotion
+**Containing Groups:** [layering](org-eclipse-elk-layered-layering) -> [nodePromotion](org-eclipse-elk-layered-layering-nodePromotion)
 

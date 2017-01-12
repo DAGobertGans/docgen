@@ -3,28 +3,18 @@ layout: page
 title: Node Layering Strategy
 type: option
 ---
-org.eclipse.elk.layered.layering.strategy
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: strategy
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.p2layers.LayeringStrategy
-label: Node Layering Strategy
-description: Strategy for node layering.
-documentation: 
-default value:  LayeringStrategy.NETWORK_SIMPLEX
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.nodeLayering]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.layering.strategy
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.p2layers.LayeringStrategy
+**Default Value:**  LayeringStrategy.NETWORK_SIMPLEX  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-layering 
+### Description
+Strategy for node layering.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.nodeLayering
+**Containing Groups:** [layering](org-eclipse-elk-layered-layering)
 

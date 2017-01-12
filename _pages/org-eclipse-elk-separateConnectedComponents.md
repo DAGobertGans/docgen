@@ -3,28 +3,17 @@ layout: page
 title: Separate Connected Components
 type: option
 ---
-org.eclipse.elk.separateConnectedComponents
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: separateConnectedComponents
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: boolean
-label: Separate Connected Components
-description: Whether each connected component should be processed separately.
-documentation: 
-default value: 
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: [de.cau.cs.kieler.separateConnComp]
-dependencies:
+**Identifier:** org.eclipse.elk.separateConnectedComponents
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** boolean
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Whether each connected component should be processed separately.
 
+**Legacy Id:** de.cau.cs.kieler.separateConnComp
 

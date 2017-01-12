@@ -3,29 +3,18 @@ layout: page
 title: Node Label Placement
 type: option
 ---
-org.eclipse.elk.nodeLabels.placement
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: placement
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: java.util.EnumSet<JvmParameterizedTypeReference: org.eclipse.elk.core.options.NodeLabelPlacement>
-label: Node Label Placement
-description: Hints for where node labels are to be placed; if empty, the node label's position is not
-			modified.
-documentation: 
-default value: <XFeatureCallImplCustom>.fixed
-lower bound: 
-upper bound: 
-targets: [nodes, labels]
-legady ids: [de.cau.cs.kieler.nodeLabelPlacement]
-dependencies:
+**Identifier:** org.eclipse.elk.nodeLabels.placement
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** java.util.EnumSet&lt;org.eclipse.elk.core.options.NodeLabelPlacement&gt;
+**Default Value:**  NodeLabelPlacement.fixed  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes, labels
 
-## Group(s)
-nodeLabels 
+### Description
+Hints for where node labels are to be placed; if empty, the node label's position is not modified.
+
+**Legacy Id:** de.cau.cs.kieler.nodeLabelPlacement
+**Containing Groups:** [nodeLabels](org-eclipse-elk-nodeLabels)
 

@@ -3,28 +3,17 @@ layout: page
 title: Label Manager
 type: option
 ---
-org.eclipse.elk.labelManager
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: labelManager
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.labels.ILabelManager
-label: Label Manager
-description: Label managers can shorten labels upon a layout algorithm's request.
-documentation: 
-default value: 
-lower bound: 
-upper bound: 
-targets: [parents, labels]
-legady ids: []
-dependencies:
+**Identifier:** org.eclipse.elk.labelManager
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.labels.ILabelManager
+**Default Value:** *not defined*  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents, labels
 
-## Group(s)
+### Description
+Label managers can shorten labels upon a layout algorithm's request.
 
 

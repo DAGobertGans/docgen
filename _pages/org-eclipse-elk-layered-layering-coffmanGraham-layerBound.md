@@ -3,28 +3,19 @@ layout: page
 title: Layer Bound
 type: option
 ---
-org.eclipse.elk.layered.layering.coffmanGraham.layerBound
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: layerBound
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: int
-label: Layer Bound
-description: The maximum number of nodes allowed per layer.
-documentation: 
-default value:  Integer.MAX_VALUE
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: []
-dependencies: (org.eclipse.elk.layered.layering.strategy == <XFeatureCallImplCustom>.COFFMAN_GRAHAM)
+**Identifier:** org.eclipse.elk.layered.layering.coffmanGraham.layerBound
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** int
+**Default Value:**  Integer.MAX_VALUE  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-layering coffmanGraham 
+### Description
+The maximum number of nodes allowed per layer.
+
+**Dependencies:** org.eclipse.elk.layered.layering.strategy
+**Containing Groups:** [layering](org-eclipse-elk-layered-layering) -> [coffmanGraham](org-eclipse-elk-layered-layering-coffmanGraham)
 

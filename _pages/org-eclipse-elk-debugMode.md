@@ -3,28 +3,18 @@ layout: page
 title: Debug Mode
 type: option
 ---
-org.eclipse.elk.debugMode
+advanced
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: debugMode
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: boolean
-label: Debug Mode
-description: Whether additional debug information shall be generated.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@433082dd (isTrue: false)
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: [de.cau.cs.kieler.debugMode]
-dependencies:
+**Identifier:** org.eclipse.elk.debugMode
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Whether additional debug information shall be generated.
 
+**Legacy Id:** de.cau.cs.kieler.debugMode
 

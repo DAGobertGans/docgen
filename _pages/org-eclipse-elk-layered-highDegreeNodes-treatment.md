@@ -3,28 +3,19 @@ layout: page
 title: High Degree Node Treatment
 type: option
 ---
-org.eclipse.elk.layered.highDegreeNodes.treatment
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: treatment
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: boolean
-label: High Degree Node Treatment
-description: Makes room around high degree nodes to place leafs and trees.
-documentation: 
-default value:  false
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.highDegreeNode.treatment]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.highDegreeNodes.treatment
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-highDegreeNodes 
+### Description
+Makes room around high degree nodes to place leafs and trees.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.highDegreeNode.treatment
+**Containing Groups:** [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
 

@@ -3,28 +3,19 @@ layout: page
 title: Post Compaction Constraint Calculation
 type: option
 ---
-org.eclipse.elk.layered.compaction.postCompaction.constraints
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: constraints
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.intermediate.compaction.ConstraintCalculationStrategy
-label: Post Compaction Constraint Calculation
-description: Specifies whether and how post-process compaction is applied.
-documentation: 
-default value:  ConstraintCalculationStrategy.SCANLINE
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.postCompaction.constraints]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.compaction.postCompaction.constraints
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.intermediate.compaction.ConstraintCalculationStrategy
+**Default Value:**  ConstraintCalculationStrategy.SCANLINE  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
-compaction postCompaction 
+### Description
+Specifies whether and how post-process compaction is applied.
+
+**Legacy Id:** de.cau.cs.kieler.klay.layered.postCompaction.constraints
+**Containing Groups:** [compaction](org-eclipse-elk-layered-compaction) -> [postCompaction](org-eclipse-elk-layered-compaction-postCompaction)
 

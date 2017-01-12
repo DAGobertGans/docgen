@@ -3,28 +3,17 @@ layout: page
 title: Port Constraints
 type: option
 ---
-org.eclipse.elk.portConstraints
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: portConstraints
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.core.options.PortConstraints
-label: Port Constraints
-description: Defines constraints of the position of the ports of a node.
-documentation: 
-default value: <XFeatureCallImplCustom>.UNDEFINED
-lower bound: 
-upper bound: 
-targets: [nodes]
-legady ids: [de.cau.cs.kieler.portConstraints]
-dependencies:
+**Identifier:** org.eclipse.elk.portConstraints
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** org.eclipse.elk.core.options.PortConstraints
+**Default Value:**  PortConstraints.UNDEFINED  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
+### Description
+Defines constraints of the position of the ports of a node.
 
+**Legacy Id:** de.cau.cs.kieler.portConstraints
 

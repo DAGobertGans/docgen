@@ -3,10 +3,11 @@ layout: page
 title: nodePlacement
 type: group
 ---
-org.eclipse.elk.layered.nodePlacement
+**Identifier:** org.eclipse.elk.layered.nodePlacement
 ## children
 
 strategy
+favorStraightEdges
 bk
 linearSegments
 

@@ -3,28 +3,18 @@ layout: page
 title: Edge Label Side Selection
 type: option
 ---
-org.eclipse.elk.layered.edgeLabelSideSelection
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: edgeLabelSideSelection
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: org.eclipse.elk.alg.layered.properties.EdgeLabelSideSelection
-label: Edge Label Side Selection
-description: Method to decide on edge label sides.
-documentation: 
-default value:  EdgeLabelSideSelection.ALWAYS_DOWN
-lower bound: *not defined*
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.edgeLabelSideSelection]
-dependencies: (org.eclipse.elk.edgeRouting == <XFeatureCallImplCustom>.ORTHOGONAL)
+**Identifier:** org.eclipse.elk.layered.edgeLabelSideSelection
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** org.eclipse.elk.alg.layered.properties.EdgeLabelSideSelection
+**Default Value:**  EdgeLabelSideSelection.ALWAYS_DOWN  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+Method to decide on edge label sides.
 
+**Legacy Id:** de.cau.cs.kieler.klay.layered.edgeLabelSideSelection
+**Dependencies:** org.eclipse.elk.edgeRouting
 

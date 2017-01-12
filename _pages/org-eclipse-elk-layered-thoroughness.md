@@ -3,28 +3,18 @@ layout: page
 title: Thoroughness
 type: option
 ---
-org.eclipse.elk.layered.thoroughness
+advanced
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.layered
-bundle.targetClass: properties.LayeredMetaDataProvider
-name: thoroughness
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: int
-label: Thoroughness
-description: How much effort should be spent to produce a nice layout.
-documentation: 
-default value:  7
-lower bound:  1
-upper bound: *not defined*
-targets: [parents]
-legady ids: [de.cau.cs.kieler.klay.layered.thoroughness]
-dependencies:
+**Identifier:** org.eclipse.elk.layered.thoroughness
+**Meta Data Provider:** properties.LayeredMetaDataProvider
+**Type:** int
+**Default Value:**  7  (not specific to an algorithm)
+**Lower Bound:**  1
+**Upper Bound:** *not defined*
+**Applies To:** parents
 
-## Group(s)
+### Description
+How much effort should be spent to produce a nice layout.
 
+**Legacy Id:** de.cau.cs.kieler.klay.layered.thoroughness
 

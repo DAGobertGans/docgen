@@ -3,7 +3,7 @@ layout: page
 title: compaction
 type: group
 ---
-org.eclipse.elk.layered.compaction
+**Identifier:** org.eclipse.elk.layered.compaction
 ## children
 
 postCompaction

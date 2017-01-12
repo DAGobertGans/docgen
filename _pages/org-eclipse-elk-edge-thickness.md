@@ -3,29 +3,19 @@ layout: page
 title: Edge Thickness
 type: option
 ---
-org.eclipse.elk.edge.thickness
+programmatic
 
-bundle.label: ELK
-bundle.idPrefix: org.eclipse.elk
-bundle.targetClass: core.options.CoreOptions
-name: thickness
-deprecated: false
-advanced: false
-programmatic: true
-output: false
-global: false
-type: JvmParameterizedTypeReference: float
-label: Edge Thickness
-description: The thickness of an edge. This is a hint on the line width used to draw an edge, possibly
-			requiring more space to be reserved for it.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XNumberLiteralImpl@d3b958c (value: 1)
-lower bound: 
-upper bound: 
-targets: [edges]
-legady ids: [de.cau.cs.kieler.thickness]
-dependencies:
+**Identifier:** org.eclipse.elk.edge.thickness
+**Meta Data Provider:** core.options.CoreOptions
+**Type:** double
+**Default Value:**  1  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** edges
 
-## Group(s)
-edge 
+### Description
+The thickness of an edge. This is a hint on the line width used to draw an edge, possibly requiring more space to be reserved for it.
+
+**Legacy Id:** de.cau.cs.kieler.thickness
+**Containing Groups:** [edge](org-eclipse-elk-edge)
 

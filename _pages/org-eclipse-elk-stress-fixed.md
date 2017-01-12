@@ -3,28 +3,16 @@ layout: page
 title: Fixed Position
 type: option
 ---
-org.eclipse.elk.stress.fixed
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.stress
-bundle.targetClass: properties.StressMetaDataProvider
-name: fixed
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: boolean
-label: Fixed Position
-description: Prevent that the node is moved by the layout algorithm.
-documentation: 
-default value: org.eclipse.xtext.xbase.impl.XBooleanLiteralImpl@4b8cf229 (isTrue: false)
-lower bound: 
-upper bound: 
-targets: [nodes]
-legady ids: []
-dependencies:
+**Identifier:** org.eclipse.elk.stress.fixed
+**Meta Data Provider:** properties.StressMetaDataProvider
+**Type:** boolean
+**Default Value:**  false  (not specific to an algorithm)
+**Lower Bound:** *not defined*
+**Upper Bound:** *not defined*
+**Applies To:** nodes
 
-## Group(s)
+### Description
+Prevent that the node is moved by the layout algorithm.
 
 
