@@ -3,18 +3,19 @@ layout: page
 title: Port Alignment
 type: option
 ---
+## Port Alignment
 
-**Identifier:** org.eclipse.elk.portAlignment.basic
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** org.eclipse.elk.core.options.PortAlignment
-**Default Value:**  PortAlignment.JUSTIFIED  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** nodes
+----|----
+**Identifier:** | org.eclipse.elk.portAlignment.basic
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `org.eclipse.elk.core.options.PortAlignment` (Enum)
+**Possible Values:** | `BEGIN`, `CENTER`, `END`, `JUSTIFIED`, `UNDEFINED`
+**Default Value:** | `PortAlignment.JUSTIFIED` (as defined in org.eclipse.elk)
+**Applies To:** | nodes
+**Legacy Id:** | de.cau.cs.kieler.portAlignment
+**Containing Groups:** | [portAlignment](org-eclipse-elk-portAlignment)
+
 
 ### Description
 Defines the default port distribution for a node. May be overridden for each side individually.
-
-**Legacy Id:** de.cau.cs.kieler.portAlignment
-**Containing Groups:** [portAlignment](org-eclipse-elk-portAlignment)
 

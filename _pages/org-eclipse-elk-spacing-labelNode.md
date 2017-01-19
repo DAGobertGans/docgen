@@ -3,18 +3,19 @@ layout: page
 title: Label Node Spacing
 type: option
 ---
+## Label Node Spacing
 
-**Identifier:** org.eclipse.elk.spacing.labelNode
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** double
-**Default Value:**  5  (not specific to an algorithm)
-**Lower Bound:**  0.0
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Identifier:** | org.eclipse.elk.spacing.labelNode
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `double`
+**Default Value:** | `5` (as defined in org.eclipse.elk)
+**Lower Bound:** | `0.0`
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.labelSpacing
+**Containing Groups:** | [spacing](org-eclipse-elk-spacing)
+
 
 ### Description
 Spacing to be preserved between labels and the border of node they are associated with. Note that the placement of a label is influenced by the 'nodelabels.placement' option.
-
-**Legacy Id:** de.cau.cs.kieler.labelSpacing
-**Containing Groups:** [spacing](org-eclipse-elk-spacing)
 

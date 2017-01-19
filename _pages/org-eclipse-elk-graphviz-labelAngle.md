@@ -3,28 +3,16 @@ layout: page
 title: Label Angle
 type: option
 ---
-org.eclipse.elk.graphviz.labelAngle
+## Label Angle
 
-bundle.label: Graphviz
-bundle.idPrefix: org.eclipse.elk.graphviz
-bundle.targetClass: layouter.GraphvizMetaDataProvider
-name: labelAngle
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: float
-label: Label Angle
-description: Angle between head / tail positioned edge labels and the corresponding edge.
-documentation: 
-default value: - <XNumberLiteralImpl>
-lower bound: 
-upper bound: 
-targets: [edges]
-legady ids: []
-dependencies:
+----|----
+**Identifier:** | org.eclipse.elk.graphviz.labelAngle
+**Meta Data Provider:** | layouter.GraphvizMetaDataProvider
+**Value Type:** | `double`
+**Default Value:** | `-25` (as defined in org.eclipse.elk.graphviz)
+**Applies To:** | edges
 
-## Group(s)
 
+### Description
+Angle between head / tail positioned edge labels and the corresponding edge.
 

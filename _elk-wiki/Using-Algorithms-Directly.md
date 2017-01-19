@@ -23,8 +23,7 @@ Each layout algorithm provides a subclass of `AbstractLayoutProvider` that is th
 
 1. Create a KGraph to be laid out (see our [graph documentation](Graph-Data-Structure) for how to do so). The KGraph will be based on the diagram you want your application to display.
 
-1. Configure how the layout algorithm should layout your graph by setting **TODO**
-type: wiki[layout properties](Layout-Properties) on the graph's elements. Check the documentation of the layout algorithm you want to use for which layout properties it supports and what they do, exactly.
+1. Configure how the layout algorithm should layout your graph by setting <span class="inactive">**TODO** [layout properties](Layout-Properties)</span> on the graph's elements. Check the documentation of the layout algorithm you want to use for which layout properties it supports and what they do, exactly.
 
 1. Obtain an instance of the layout algorithm's implementation of `AbstractLayoutProvider`. For our layer-based algorithm, for example, this is the `LayeredLayoutProvider`. Be sure to call `initialize(...)` on it. The parameter can be `null` in most cases, unless specified otherwise.
 

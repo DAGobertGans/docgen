@@ -3,17 +3,18 @@ layout: page
 title: Direction
 type: option
 ---
+## Direction
 
-**Identifier:** org.eclipse.elk.direction
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** org.eclipse.elk.core.options.Direction
-**Default Value:**  Direction.UNDEFINED  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Identifier:** | org.eclipse.elk.direction
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `org.eclipse.elk.core.options.Direction` (Enum)
+**Possible Values:** | `DOWN`, `LEFT`, `RIGHT`, `UNDEFINED`, `UP`
+**Default Value:** | `Direction.UNDEFINED` (as defined in org.eclipse.elk)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.direction
+
 
 ### Description
 Overall direction of edges: horizontal (right / left) or vertical (down / up).
-
-**Legacy Id:** de.cau.cs.kieler.direction
 

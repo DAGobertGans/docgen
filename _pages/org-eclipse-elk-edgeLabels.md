@@ -3,9 +3,7 @@ layout: page
 title: edgeLabels
 type: group
 ---
+## edgeLabels
 **Identifier:** org.eclipse.elk.edgeLabels
-## children
-
-placement
-
-
+### Options:
+[Edge Label Placement](org-eclipse-elk-edgeLabels-placement)

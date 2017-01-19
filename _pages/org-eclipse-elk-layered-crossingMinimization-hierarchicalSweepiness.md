@@ -3,17 +3,17 @@ layout: page
 title: Hierarchical Sweepiness
 type: option
 ---
+## Hierarchical Sweepiness
 
-**Identifier:** org.eclipse.elk.layered.crossingMinimization.hierarchicalSweepiness
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** double
-**Default Value:**  0.1  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Identifier:** | org.eclipse.elk.layered.crossingMinimization.hierarchicalSweepiness
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `double`
+**Default Value:** | `0.1` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Containing Groups:** | [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
+
 
 ### Description
 How likely it is to use cross-hierarchy (1) vs bottom-up (-1).
-
-**Containing Groups:** [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
 

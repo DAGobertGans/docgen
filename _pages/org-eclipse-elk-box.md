@@ -3,12 +3,7 @@ layout: page
 title: box
 type: group
 ---
+## box
 **Identifier:** org.eclipse.elk.box
-## children
-
-packingMode
-
-
-## Additional Documentation
-
-kjsbaf **khsf**
+### Options:
+[Box Layout Mode](org-eclipse-elk-box-packingMode)

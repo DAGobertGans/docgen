@@ -3,10 +3,8 @@ layout: page
 title: font
 type: group
 ---
+## font
 **Identifier:** org.eclipse.elk.font
-## children
-
-name
-size
-
-
+### Options:
+[Font Name](org-eclipse-elk-font-name)
+[Font Size](org-eclipse-elk-font-size)

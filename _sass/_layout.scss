@@ -61,17 +61,27 @@ header {
 	h1 {
 	    margin: 7px;
 	    
-	    @media screen and (max-width: 1030px) {
+	    @media screen and (max-width: 900px) {
 	        font-size: 1em;
 	    }
 	}
+}
+blockquote {
+    border-left: 5px solid #ccc;
+    margin: 0.2em 0;
+    padding: 0 20px;
 }
 main {
 	padding: 0 15px;
 	max-width: $content-width;
 	margin: 0 auto;
 }
-
+.back-btn {
+    margin: 30px;
+    text-align: center;
+    font-family: $font-style;
+	font-size: 1em;
+}
 
 /* Aside 
 
@@ -184,7 +194,6 @@ aside.wiki-aside {
 }
 .flex-nav {
     width: 300px;
-
     
     #menu-toggle {display: none;}
   

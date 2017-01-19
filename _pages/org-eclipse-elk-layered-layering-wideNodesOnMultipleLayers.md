@@ -3,19 +3,20 @@ layout: page
 title: Wide Nodes on Multiple Layers
 type: option
 ---
-advanced
+## Wide Nodes on Multiple Layers
 
-**Identifier:** org.eclipse.elk.layered.layering.wideNodesOnMultipleLayers
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** org.eclipse.elk.alg.layered.properties.WideNodesStrategy
-**Default Value:**  WideNodesStrategy.OFF  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.layering.wideNodesOnMultipleLayers
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.layered.properties.WideNodesStrategy` (Enum)
+**Possible Values:** | `AGGRESSIVE`, `CAREFUL`, `OFF`
+**Default Value:** | `WideNodesStrategy.OFF` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.wideNodesOnMultipleLayers
+**Containing Groups:** | [layering](org-eclipse-elk-layered-layering)
+
 
 ### Description
 Strategy to distribute wide nodes over multiple layers.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.wideNodesOnMultipleLayers
-**Containing Groups:** [layering](org-eclipse-elk-layered-layering)
 

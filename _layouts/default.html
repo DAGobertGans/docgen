@@ -11,9 +11,13 @@
 	    <nav>
 
 	        <ul>
-	            <li><a {% if page.type == null %}class="active"{% endif %} href="{{ "/_pages/org_eclipse_elk" | prepend: site.baseurl }}">gen (no type)</a></li>
-	            <li><a {% if page.type == "algorithm" %}class="active"{% endif %} href="{{ "/_pages/org-eclipse-elk-layered" | prepend: site.baseurl }}">Algorithms</a></li>
-	            <li><a {% if page.type == "option" %}class="active"{% endif %} href="{{ "/_pages/org-eclipse-elk-layered-compaction-connectedComponents" | prepend: site.baseurl }}">Options</a></li>
+	            {% assign pages = site.pages | sort:"title" %}
+	            {% for p in pages %} {% if p.title and p.type == "group" %} {% assign firstGroup = p %} {% break %} {% endif %} {% endfor %}
+	            {% for q in pages %} {% if q.title and q.type == "option" %} {% assign firstOption = q %} {% break %} {% endif %} {% endfor %}
+	            {% for r in pages %} {% if r.title and r.type == "algorithm" %} {% assign firstAlgorithm = r %} {% break %} {% endif %} {% endfor %}
+	            <li><a {% if page.type == "group" %}class="active"{% endif %} href="{{ firstGroup.url | prepend: site.baseurl }}">Groups</a></li>
+	            <li><a {% if page.type == "option" %}class="active"{% endif %} href="{{ firstOption.url | prepend: site.baseurl }}">Options</a></li>
+	            <li><a {% if page.type == "algorithm" %}class="active"{% endif %} href="{{ firstAlgorithm.url | prepend: site.baseurl }}">Algorithms</a></li>
 	            <li><a {% if page.type == "wiki" %}class="active"{% endif %} href="{{ "/_elk-wiki/Home" | prepend: site.baseurl }}">Wiki</a></li>
 	        </ul>
 	    </nav>

@@ -3,18 +3,18 @@ layout: page
 title: Hypernode
 type: option
 ---
-programmatic
+## Hypernode
 
-**Identifier:** org.eclipse.elk.hypernode
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** boolean
-**Default Value:**  false  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** nodes
+----|----
+**Type:** | programmatic
+**Identifier:** | org.eclipse.elk.hypernode
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `boolean`
+**Default Value:** | `false` (as defined in org.eclipse.elk)
+**Applies To:** | nodes
+**Legacy Id:** | de.cau.cs.kieler.hypernode
+
 
 ### Description
 Whether the node should be handled as a hypernode.
-
-**Legacy Id:** de.cau.cs.kieler.hypernode
 

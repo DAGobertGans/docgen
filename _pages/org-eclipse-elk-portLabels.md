@@ -3,9 +3,7 @@ layout: page
 title: portLabels
 type: group
 ---
+## portLabels
 **Identifier:** org.eclipse.elk.portLabels
-## children
-
-placement
-
-
+### Options:
+[Port Label Placement](org-eclipse-elk-portLabels-placement)

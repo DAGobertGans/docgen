@@ -3,20 +3,21 @@ layout: page
 title: High Degree Node Maximum Tree Height
 type: option
 ---
-advanced
+## High Degree Node Maximum Tree Height
 
-**Identifier:** org.eclipse.elk.layered.highDegreeNodes.treeHeight
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** int
-**Default Value:**  5  (not specific to an algorithm)
-**Lower Bound:**  0
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.highDegreeNodes.treeHeight
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `int`
+**Default Value:** | `5` (as defined in org.eclipse.elk.layered)
+**Lower Bound:** | `0`
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.highDegreeNode.treeHeight
+**Dependencies:** | [org.eclipse.elk.layered.highDegreeNodes.treatment](org-eclipse-elk-layered-highDegreeNodes-treatment)
+**Containing Groups:** | [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
+
 
 ### Description
 Maximum height of a subtree connected to a high degree node to be moved to separate layers.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.highDegreeNode.treeHeight
-**Dependencies:** org.eclipse.elk.layered.highDegreeNodes.treatment
-**Containing Groups:** [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
 

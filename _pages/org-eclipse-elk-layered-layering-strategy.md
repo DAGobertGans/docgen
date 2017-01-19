@@ -3,18 +3,19 @@ layout: page
 title: Node Layering Strategy
 type: option
 ---
+## Node Layering Strategy
 
-**Identifier:** org.eclipse.elk.layered.layering.strategy
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** org.eclipse.elk.alg.layered.p2layers.LayeringStrategy
-**Default Value:**  LayeringStrategy.NETWORK_SIMPLEX  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Identifier:** | org.eclipse.elk.layered.layering.strategy
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.layered.p2layers.LayeringStrategy` (Enum)
+**Possible Values:** | `COFFMAN_GRAHAM`, `EXP_MIN_WIDTH`, `EXP_STRETCH_WIDTH`, `INTERACTIVE`, `LONGEST_PATH`, `NETWORK_SIMPLEX`
+**Default Value:** | `LayeringStrategy.NETWORK_SIMPLEX` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.nodeLayering
+**Containing Groups:** | [layering](org-eclipse-elk-layered-layering)
+
 
 ### Description
 Strategy for node layering.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.nodeLayering
-**Containing Groups:** [layering](org-eclipse-elk-layered-layering)
 

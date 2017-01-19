@@ -3,17 +3,18 @@ layout: page
 title: Node Size Constraints
 type: option
 ---
+## Node Size Constraints
 
-**Identifier:** org.eclipse.elk.nodeSize.constraints
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** java.util.EnumSet&lt;org.eclipse.elk.core.options.SizeConstraint&gt;
-**Default Value:**  EnumSet.noneOf(SizeConstraint)  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** nodes
+----|----
+**Identifier:** | org.eclipse.elk.nodeSize.constraints
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `java.util.EnumSet<org.eclipse.elk.core.options.SizeConstraint>`
+**Possible Values:** | `MINIMUM_SIZE`, `NODE_LABELS`, `PORTS`, `PORT_LABELS`
+**Default Value:** | `EnumSet.noneOf(SizeConstraint)` (as defined in org.eclipse.elk)
+**Applies To:** | nodes
+**Containing Groups:** | [nodeSize](org-eclipse-elk-nodeSize)
+
 
 ### Description
 Constraints for determining node sizes. Each member of the set specifies something that should be taken into account when calculating node sizes. The empty set corresponds to node sizes being fixed.
-
-**Containing Groups:** [nodeSize](org-eclipse-elk-nodeSize)
 

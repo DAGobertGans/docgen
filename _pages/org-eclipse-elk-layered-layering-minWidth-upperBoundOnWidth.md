@@ -3,20 +3,21 @@ layout: page
 title: Upper Bound On Width [MinWidth Layerer]
 type: option
 ---
-advanced
+## Upper Bound On Width [MinWidth Layerer]
 
-**Identifier:** org.eclipse.elk.layered.layering.minWidth.upperBoundOnWidth
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** int
-**Default Value:**  4  (not specific to an algorithm)
-**Lower Bound:**  1
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.layering.minWidth.upperBoundOnWidth
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `int`
+**Default Value:** | `4` (as defined in org.eclipse.elk.layered)
+**Lower Bound:** | `-1`
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.minWidthUpperBoundOnWidth
+**Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
+**Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [minWidth](org-eclipse-elk-layered-layering-minWidth)
+
 
 ### Description
-Defines a loose upper bound on the width of the MinWidth layerer.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.minWidthUpperBoundOnWidth
-**Dependencies:** org.eclipse.elk.layered.layering.strategy
-**Containing Groups:** [layering](org-eclipse-elk-layered-layering) -> [minWidth](org-eclipse-elk-layered-layering-minWidth)
+Defines a loose upper bound on the width of the MinWidth layerer. If set to '-1' multiple values are tested and the best result is selected.
 

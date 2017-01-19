@@ -3,19 +3,19 @@ layout: page
 title: Sausage Folding
 type: option
 ---
-advanced
+## Sausage Folding
 
-**Identifier:** org.eclipse.elk.layered.sausageFolding
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** boolean
-**Default Value:**  false  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.sausageFolding
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `boolean`
+**Default Value:** | `false` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.sausageFolding
+**Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
+
 
 ### Description
 Whether long sausages should be folded up nice and tight.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.sausageFolding
-**Dependencies:** org.eclipse.elk.layered.layering.strategy
 

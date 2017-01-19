@@ -3,19 +3,19 @@ layout: page
 title: Edge Thickness
 type: option
 ---
-programmatic
+## Edge Thickness
 
-**Identifier:** org.eclipse.elk.edge.thickness
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** double
-**Default Value:**  1  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** edges
+----|----
+**Type:** | programmatic
+**Identifier:** | org.eclipse.elk.edge.thickness
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `double`
+**Default Value:** | `1` (as defined in org.eclipse.elk)
+**Applies To:** | edges
+**Legacy Id:** | de.cau.cs.kieler.thickness
+**Containing Groups:** | [edge](org-eclipse-elk-edge)
+
 
 ### Description
 The thickness of an edge. This is a hint on the line width used to draw an edge, possibly requiring more space to be reserved for it.
-
-**Legacy Id:** de.cau.cs.kieler.thickness
-**Containing Groups:** [edge](org-eclipse-elk-edge)
 

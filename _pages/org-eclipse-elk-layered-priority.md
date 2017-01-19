@@ -3,11 +3,9 @@ layout: page
 title: priority
 type: group
 ---
+## priority
 **Identifier:** org.eclipse.elk.layered.priority
-## children
-
-direction
-shortness
-straightness
-
-
+### Options:
+[Direction Priority](org-eclipse-elk-layered-priority-direction)
+[Shortness Priority](org-eclipse-elk-layered-priority-shortness)
+[Straightness Priority](org-eclipse-elk-layered-priority-straightness)

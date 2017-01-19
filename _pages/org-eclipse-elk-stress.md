@@ -3,6 +3,7 @@ layout: page
 title: ELK Stress
 type: algorithm
 ---
+## ELK Stress
 **Identifier:** org.eclipse.elk.stress
 **Meta Data Provider:** properties.StressMetaDataProvider
 
@@ -15,10 +16,10 @@ Layout algorithms that follow physical analogies by simulating a system of attra
 
 Option | Type | Default Value | Identifier
 ----|----|----
-[Interactive](org-eclipse-elk-interactive) | boolean | *not defined* | org.eclipse.elk.interactive
-[Fixed Position](org-eclipse-elk-stress-fixed) | boolean | *not defined* | org.eclipse.elk.stress.fixed
-[Layout Dimension](org-eclipse-elk-stress-dimension) | Dimension | *not defined* | org.eclipse.elk.stress.dimension
-[Stress Epsilon](org-eclipse-elk-stress-epsilon) | float | *not defined* | org.eclipse.elk.stress.epsilon
-[Iteration Limit](org-eclipse-elk-stress-iterationLimit) | int | *not defined* | org.eclipse.elk.stress.iterationLimit
-[Desired Edge Length](org-eclipse-elk-stress-desiredEdgeLength) | float | *not defined* | org.eclipse.elk.stress.desiredEdgeLength
+[Desired Edge Length](org-eclipse-elk-stress-desiredEdgeLength) | `float` | `100f` | org.eclipse.elk.stress.desiredEdgeLength
+[Fixed Position](org-eclipse-elk-stress-fixed) | `boolean` | `false` | org.eclipse.elk.stress.fixed
+[Interactive](org-eclipse-elk-interactive) | `boolean` | `false` | org.eclipse.elk.interactive
+[Iteration Limit](org-eclipse-elk-stress-iterationLimit) | `int` | `Integer.MAX_VALUE` | org.eclipse.elk.stress.iterationLimit
+[Layout Dimension](org-eclipse-elk-stress-dimension) | `Dimension` | `Dimension.XY` | org.eclipse.elk.stress.dimension
+[Stress Epsilon](org-eclipse-elk-stress-epsilon) | `float` | `10e-4f` | org.eclipse.elk.stress.epsilon
 

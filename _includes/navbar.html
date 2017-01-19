@@ -5,7 +5,8 @@
             <label for="menu-toggle" class="label-toggle"></label>
             </input>
 			<ul>
-				{% for p in site.pages %} {% if p.title and p.type == page.type %}
+			    {% assign pages = site.pages | sort:"title" %}
+				{% for p in pages %} {% if p.title and p.type == page.type %}
 				<li><a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a></li>
 				{% endif %} {% endfor %}
 			</ul>

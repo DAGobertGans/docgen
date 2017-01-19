@@ -3,18 +3,18 @@ layout: page
 title: Debug Mode
 type: option
 ---
-advanced
+## Debug Mode
 
-**Identifier:** org.eclipse.elk.debugMode
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** boolean
-**Default Value:**  false  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.debugMode
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `boolean`
+**Default Value:** | `false` (as defined in org.eclipse.elk)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.debugMode
+
 
 ### Description
 Whether additional debug information shall be generated.
-
-**Legacy Id:** de.cau.cs.kieler.debugMode
 

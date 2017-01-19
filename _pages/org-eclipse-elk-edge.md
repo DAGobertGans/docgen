@@ -3,10 +3,8 @@ layout: page
 title: edge
 type: group
 ---
+## edge
 **Identifier:** org.eclipse.elk.edge
-## children
-
-thickness
-type
-
-
+### Options:
+[Edge Thickness](org-eclipse-elk-edge-thickness)
+[Edge Type](org-eclipse-elk-edge-type)

@@ -3,28 +3,17 @@ layout: page
 title: Weighting of Nodes
 type: option
 ---
-org.eclipse.elk.mrtree.weighting
+## Weighting of Nodes
 
-bundle.label: 
-bundle.idPrefix: org.eclipse.elk.mrtree
-bundle.targetClass: properties.MrTreeMetaDataProvider
-name: weighting
-deprecated: false
-advanced: false
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.mrtree.properties.OrderWeighting
-label: Weighting of Nodes
-description: Which weighting to use when computing a node order.
-documentation: 
-default value: <XFeatureCallImplCustom>.DESCENDANTS
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: []
-dependencies:
+----|----
+**Identifier:** | org.eclipse.elk.mrtree.weighting
+**Meta Data Provider:** | properties.MrTreeMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.mrtree.properties.OrderWeighting` (Enum)
+**Possible Values:** | `DESCENDANTS`, `FAN`
+**Default Value:** | `OrderWeighting.DESCENDANTS` (as defined in org.eclipse.elk.mrtree)
+**Applies To:** | parents
 
-## Group(s)
 
+### Description
+Which weighting to use when computing a node order.
 

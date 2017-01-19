@@ -3,18 +3,18 @@ layout: page
 title: Aspect Ratio
 type: option
 ---
-advanced
+## Aspect Ratio
 
-**Identifier:** org.eclipse.elk.aspectRatio
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** double
-**Default Value:** *not defined*  (not specific to an algorithm)
-**Lower Bound:**  ExclusiveBounds.greaterThan(0)
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.aspectRatio
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `double`
+**Lower Bound:** | `ExclusiveBounds.greaterThan(0)`
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.aspectRatio
+
 
 ### Description
 The desired aspect ratio of the drawing, that is the quotient of width by height.
-
-**Legacy Id:** de.cau.cs.kieler.aspectRatio
 

@@ -3,18 +3,19 @@ layout: page
 title: Content Alignment
 type: option
 ---
-advanced
+## Content Alignment
 
-**Identifier:** org.eclipse.elk.layered.contentAlignment
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** java.util.EnumSet&lt;org.eclipse.elk.alg.layered.properties.ContentAlignment&gt;
-**Default Value:**  EnumSet.noneOf(ContentAlignment)  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.contentAlignment
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `java.util.EnumSet<org.eclipse.elk.alg.layered.properties.ContentAlignment>`
+**Possible Values:** | `H_CENTER`, `H_LEFT`, `H_RIGHT`, `V_BOTTOM`, `V_CENTER`, `V_TOP`
+**Default Value:** | `EnumSet.noneOf(ContentAlignment)` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.contentAlignment
+
 
 ### Description
 Specifies how the content of compound nodes is to be aligned, e.g. top-left.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.contentAlignment
 

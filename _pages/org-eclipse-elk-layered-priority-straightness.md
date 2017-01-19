@@ -3,18 +3,19 @@ layout: page
 title: Straightness Priority
 type: option
 ---
-advanced
+## Straightness Priority
 
-**Identifier:** org.eclipse.elk.layered.priority.straightness
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** int
-**Default Value:**  0  (not specific to an algorithm)
-**Lower Bound:**  0
-**Upper Bound:** *not defined*
-**Applies To:** edges
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.priority.straightness
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `int`
+**Default Value:** | `0` (as defined in org.eclipse.elk.layered)
+**Lower Bound:** | `0`
+**Applies To:** | edges
+**Containing Groups:** | [priority](org-eclipse-elk-layered-priority)
+
 
 ### Description
 Defines how important it is to keep an edge straight, i.e. aligned with one of the two axes. This option is evaluated during node placement.
-
-**Containing Groups:** [priority](org-eclipse-elk-layered-priority)
 

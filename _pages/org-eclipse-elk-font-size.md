@@ -3,19 +3,19 @@ layout: page
 title: Font Size
 type: option
 ---
-programmatic
+## Font Size
 
-**Identifier:** org.eclipse.elk.font.size
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** int
-**Default Value:** *not defined*  (not specific to an algorithm)
-**Lower Bound:**  1
-**Upper Bound:** *not defined*
-**Applies To:** labels
+----|----
+**Type:** | programmatic
+**Identifier:** | org.eclipse.elk.font.size
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `int`
+**Lower Bound:** | `1`
+**Applies To:** | labels
+**Legacy Id:** | de.cau.cs.kieler.fontSize
+**Containing Groups:** | [font](org-eclipse-elk-font)
+
 
 ### Description
 Font size used for a label.
-
-**Legacy Id:** de.cau.cs.kieler.fontSize
-**Containing Groups:** [font](org-eclipse-elk-font)
 

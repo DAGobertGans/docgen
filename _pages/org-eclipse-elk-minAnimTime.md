@@ -3,18 +3,19 @@ layout: page
 title: Minimal Animation Time
 type: option
 ---
-global
+## Minimal Animation Time
 
-**Identifier:** org.eclipse.elk.minAnimTime
-**Meta Data Provider:** core.options.CoreOptions
-**Type:** int
-**Default Value:**  400  (not specific to an algorithm)
-**Lower Bound:**  0
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | global
+**Identifier:** | org.eclipse.elk.minAnimTime
+**Meta Data Provider:** | core.options.CoreOptions
+**Value Type:** | `int`
+**Default Value:** | `400` (as defined in org.eclipse.elk)
+**Lower Bound:** | `0`
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.minAnimTime
+
 
 ### Description
 The minimal time for animations, in milliseconds.
-
-**Legacy Id:** de.cau.cs.kieler.minAnimTime
 

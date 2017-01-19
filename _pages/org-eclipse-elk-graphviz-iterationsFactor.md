@@ -3,29 +3,17 @@ layout: page
 title: Iterations Factor
 type: option
 ---
-org.eclipse.elk.graphviz.iterationsFactor
+## Iterations Factor
 
-bundle.label: Graphviz
-bundle.idPrefix: org.eclipse.elk.graphviz
-bundle.targetClass: layouter.GraphvizMetaDataProvider
-name: iterationsFactor
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: float
-label: Iterations Factor
-description: Multiplicative scale factor for the maximal number of iterations used during crossing
-		minimization, node ranking, and node positioning.
-documentation: 
-default value: 
-lower bound: <XFeatureCallImplCustom>.greaterThan(<XNumberLiteralImpl>)
-upper bound: 
-targets: [parents]
-legady ids: []
-dependencies:
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.graphviz.iterationsFactor
+**Meta Data Provider:** | layouter.GraphvizMetaDataProvider
+**Value Type:** | `double`
+**Lower Bound:** | `ExclusiveBounds.greaterThan(0)`
+**Applies To:** | parents
 
-## Group(s)
 
+### Description
+Multiplicative scale factor for the maximal number of iterations used during crossing minimization, node ranking, and node positioning.
 

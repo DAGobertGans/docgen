@@ -3,19 +3,20 @@ layout: page
 title: Interactive Reference Point
 type: option
 ---
-advanced
+## Interactive Reference Point
 
-**Identifier:** org.eclipse.elk.layered.interactiveReferencePoint
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** org.eclipse.elk.alg.layered.properties.InteractiveReferencePoint
-**Default Value:**  InteractiveReferencePoint.CENTER  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.interactiveReferencePoint
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.layered.properties.InteractiveReferencePoint` (Enum)
+**Possible Values:** | `CENTER`, `TOP_LEFT`
+**Default Value:** | `InteractiveReferencePoint.CENTER` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.interactiveReferencePoint
+**Dependencies:** | [org.eclipse.elk.layered.cycleBreaking.strategy](org-eclipse-elk-layered-cycleBreaking-strategy), [org.eclipse.elk.layered.crossingMinimization.strategy](org-eclipse-elk-layered-crossingMinimization-strategy)
+
 
 ### Description
 Determines which point of a node is considered by interactive layout phases.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.interactiveReferencePoint
-**Dependencies:** org.eclipse.elk.layered.cycleBreaking.strategy, org.eclipse.elk.layered.crossingMinimization.strategy
 

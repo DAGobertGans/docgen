@@ -3,9 +3,7 @@ layout: page
 title: cycleBreaking
 type: group
 ---
+## cycleBreaking
 **Identifier:** org.eclipse.elk.layered.cycleBreaking
-## children
-
-strategy
-
-
+### Options:
+[Cycle Breaking Strategy](org-eclipse-elk-layered-cycleBreaking-strategy)

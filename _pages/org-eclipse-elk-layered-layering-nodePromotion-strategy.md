@@ -3,19 +3,20 @@ layout: page
 title: Node Promotion Strategy
 type: option
 ---
-advanced
+## Node Promotion Strategy
 
-**Identifier:** org.eclipse.elk.layered.layering.nodePromotion.strategy
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy
-**Default Value:**  NodePromotionStrategy.NONE  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.layering.nodePromotion.strategy
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.layered.intermediate.NodePromotionStrategy` (Enum)
+**Possible Values:** | `DUMMYNODE_PERCENTAGE`, `NIKOLOV`, `NIKOLOV_IMPROVED`, `NIKOLOV_IMPROVED_PIXEL`, `NIKOLOV_PIXEL`, `NODECOUNT_PERCENTAGE`, `NONE`, `NO_BOUNDARY`
+**Default Value:** | `NodePromotionStrategy.NONE` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.nodePromotion
+**Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [nodePromotion](org-eclipse-elk-layered-layering-nodePromotion)
+
 
 ### Description
 Reduces number of dummy nodes after layering phase (if possible).
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.nodePromotion
-**Containing Groups:** [layering](org-eclipse-elk-layered-layering) -> [nodePromotion](org-eclipse-elk-layered-layering-nodePromotion)
 

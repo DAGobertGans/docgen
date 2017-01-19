@@ -3,19 +3,20 @@ layout: page
 title: Greedy Switch Crossing Minimization
 type: option
 ---
-advanced
+## Greedy Switch Crossing Minimization
 
-**Identifier:** org.eclipse.elk.layered.crossingMinimization.greedySwitch.type
-**Meta Data Provider:** properties.LayeredMetaDataProvider
-**Type:** org.eclipse.elk.alg.layered.properties.GreedySwitchType
-**Default Value:**  GreedySwitchType.TWO_SIDED  (not specific to an algorithm)
-**Lower Bound:** *not defined*
-**Upper Bound:** *not defined*
-**Applies To:** parents
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.layered.crossingMinimization.greedySwitch.type
+**Meta Data Provider:** | properties.LayeredMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.layered.properties.GreedySwitchType` (Enum)
+**Possible Values:** | `OFF`, `ONE_SIDED`, `TWO_SIDED`
+**Default Value:** | `GreedySwitchType.TWO_SIDED` (as defined in org.eclipse.elk.layered)
+**Applies To:** | parents
+**Legacy Id:** | de.cau.cs.kieler.klay.layered.greedySwitch
+**Containing Groups:** | [crossingMinimization](org-eclipse-elk-layered-crossingMinimization) -> [greedySwitch](org-eclipse-elk-layered-crossingMinimization-greedySwitch)
+
 
 ### Description
 Greedy Switch strategy for crossing minimization. The greedy switch heuristic is executed after the regular layer sweep as a post-processor.
-
-**Legacy Id:** de.cau.cs.kieler.klay.layered.greedySwitch
-**Containing Groups:** [crossingMinimization](org-eclipse-elk-layered-crossingMinimization) -> [greedySwitch](org-eclipse-elk-layered-crossingMinimization-greedySwitch)
 

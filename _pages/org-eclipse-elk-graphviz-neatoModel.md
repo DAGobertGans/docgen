@@ -3,28 +3,18 @@ layout: page
 title: Distance Model
 type: option
 ---
-org.eclipse.elk.graphviz.neatoModel
+## Distance Model
 
-bundle.label: Graphviz
-bundle.idPrefix: org.eclipse.elk.graphviz
-bundle.targetClass: layouter.GraphvizMetaDataProvider
-name: neatoModel
-deprecated: false
-advanced: true
-programmatic: false
-output: false
-global: false
-type: JvmParameterizedTypeReference: org.eclipse.elk.alg.graphviz.dot.transform.NeatoModel
-label: Distance Model
-description: Specifies how the distance matrix is computed for the input graph.
-documentation: 
-default value: <XFeatureCallImplCustom>.SHORTPATH
-lower bound: 
-upper bound: 
-targets: [parents]
-legady ids: []
-dependencies:
+----|----
+**Type:** | advanced
+**Identifier:** | org.eclipse.elk.graphviz.neatoModel
+**Meta Data Provider:** | layouter.GraphvizMetaDataProvider
+**Value Type:** | `org.eclipse.elk.alg.graphviz.dot.transform.NeatoModel` (Enum)
+**Possible Values:** | `CIRCUIT`, `SHORTPATH`, `SUBSET`
+**Default Value:** | `NeatoModel.SHORTPATH` (as defined in org.eclipse.elk.graphviz)
+**Applies To:** | parents
 
-## Group(s)
 
+### Description
+Specifies how the distance matrix is computed for the input graph.
 
