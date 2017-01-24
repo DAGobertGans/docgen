@@ -21,7 +21,7 @@ ready to be used out of the box.
 
 1. [...algorithm developers.](30_Algorithm-Developers)
     
-    You want to implement your own layout algorithms. Make sure you're already familiar with the documentation for tool developers before starting to read this, especially with our [graph data structure](Graph-Data-Structure).
+    You want to implement your own layout algorithms. Make sure you're already familiar with the documentation for tool developers before starting to read this, especially with our [graph data structure](20_10_Graph-Data-Structure).
 
 1. [...ELK contributors.](40_ELK-Contributors)
     
