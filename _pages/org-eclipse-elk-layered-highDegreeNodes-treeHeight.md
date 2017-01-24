@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.highDegreeNodes.treatment](org-eclipse-elk-layered-highDegreeNodes-treatment)
 **Containing Groups:** | [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
 
-
 ### Description
-Maximum height of a subtree connected to a high degree node to be moved to separate layers.
 
+Maximum height of a subtree connected to a high degree node to be moved to separate layers.

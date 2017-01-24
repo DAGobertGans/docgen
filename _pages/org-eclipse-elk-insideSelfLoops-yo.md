@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.selfLoopInside
 **Containing Groups:** | [insideSelfLoops](org-eclipse-elk-insideSelfLoops)
 
-
 ### Description
-Whether a self loop should be routed inside a node instead of around that node.
 
+Whether a self loop should be routed inside a node instead of around that node.

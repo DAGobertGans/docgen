@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.layoutHierarchy
 
-
 ### Description
-Whether the whole hierarchy shall be layouted. If this option is not set, each hierarchy level of the graph is processed independently, possibly by different layout algorithms, beginning with the lowest level. If it is set, the algorithm is responsible to process all hierarchy levels that are contained in the associated parent node.
 
+Whether the whole hierarchy shall be layouted. If this option is not set, each hierarchy level of the graph is processed independently, possibly by different layout algorithms, beginning with the lowest level. If it is set, the algorithm is responsible to process all hierarchy levels that are contained in the associated parent node.

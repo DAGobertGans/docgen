@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-layered-spacing)
 
-
 ### Description
-The spacing to be preserved between any pair of nodes of two adjacent layers. Note that 'spacing.nodeNode' is used for the spacing between nodes within the layer itself.
 
+The spacing to be preserved between any pair of nodes of two adjacent layers. Note that 'spacing.nodeNode' is used for the spacing between nodes within the layer itself.

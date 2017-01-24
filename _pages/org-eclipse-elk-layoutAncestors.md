@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.layoutAncestors
 
-
 ### Description
-Whether the hierarchy levels on the path from the selected element to the root of the diagram shall be included in the layout process.
 
+Whether the hierarchy levels on the path from the selected element to the root of the diagram shall be included in the layout process.

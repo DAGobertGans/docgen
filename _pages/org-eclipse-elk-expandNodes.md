@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.expandNodes
 
-
 ### Description
-If active, nodes are expanded to fill the area of their parent.
 
+If active, nodes are expanded to fill the area of their parent.

@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.highDegreeNode.treatment
 **Containing Groups:** | [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
 
-
 ### Description
-Makes room around high degree nodes to place leafs and trees.
 
+Makes room around high degree nodes to place leafs and trees.

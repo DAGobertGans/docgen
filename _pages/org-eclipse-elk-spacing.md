@@ -4,8 +4,11 @@ title: spacing
 type: group
 ---
 ## spacing
+
 **Identifier:** org.eclipse.elk.spacing
+
 ### Options:
+
 [Components Spacing](org-eclipse-elk-spacing-componentComponent)
 [Edge Spacing](org-eclipse-elk-spacing-edgeEdge)
 [Edge Label Spacing](org-eclipse-elk-spacing-edgeLabel)

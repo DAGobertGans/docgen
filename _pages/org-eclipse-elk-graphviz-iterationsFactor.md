@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `ExclusiveBounds.greaterThan(0)`
 **Applies To:** | parents
 
-
 ### Description
-Multiplicative scale factor for the maximal number of iterations used during crossing minimization, node ranking, and node positioning.
 
+Multiplicative scale factor for the maximal number of iterations used during crossing minimization, node ranking, and node positioning.

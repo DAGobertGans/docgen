@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `1`
 **Applies To:** | parents
 
-
 ### Description
-The number of iterations on the force model.
 
+The number of iterations on the force model.

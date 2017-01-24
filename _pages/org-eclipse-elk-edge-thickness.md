@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.thickness
 **Containing Groups:** | [edge](org-eclipse-elk-edge)
 
-
 ### Description
-The thickness of an edge. This is a hint on the line width used to draw an edge, possibly requiring more space to be reserved for it.
 
+The thickness of an edge. This is a hint on the line width used to draw an edge, possibly requiring more space to be reserved for it.

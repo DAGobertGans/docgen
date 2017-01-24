@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Dependencies:** | [org.eclipse.elk.force.model](org-eclipse-elk-force-model)
 
-
 ### Description
-Factor for repulsive forces in Eades' model.
 
+Factor for repulsive forces in Eades' model.

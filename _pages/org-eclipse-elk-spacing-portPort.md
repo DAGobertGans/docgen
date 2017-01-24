@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.portSpacing
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing between pairs of ports of the same node.
 
+Spacing between pairs of ports of the same node.

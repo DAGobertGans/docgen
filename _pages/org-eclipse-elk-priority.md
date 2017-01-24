@@ -13,7 +13,6 @@ type: option
 **Applies To:** | nodes, edges
 **Legacy Id:** | de.cau.cs.kieler.priority
 
-
 ### Description
-Defines the priority of an object; its meaning depends on the specific layout algorithm and the context where it is used.
 
+Defines the priority of an object; its meaning depends on the specific layout algorithm and the context where it is used.

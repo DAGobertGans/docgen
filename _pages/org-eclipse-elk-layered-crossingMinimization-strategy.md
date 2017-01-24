@@ -9,13 +9,12 @@ type: option
 **Identifier:** | org.eclipse.elk.layered.crossingMinimization.strategy
 **Meta Data Provider:** | properties.LayeredMetaDataProvider
 **Value Type:** | `org.eclipse.elk.alg.layered.p3order.CrossingMinimizationStrategy` (Enum)
-**Possible Values:** | `INTERACTIVE`, `LAYER_SWEEP`
+**Possible Values:** | `INTERACTIVE`<br>`LAYER_SWEEP`
 **Default Value:** | `CrossingMinimizationStrategy.LAYER_SWEEP` (as defined in org.eclipse.elk.layered)
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.crossMin
 **Containing Groups:** | [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
 
-
 ### Description
-Strategy for crossing minimization.
 
+Strategy for crossing minimization.

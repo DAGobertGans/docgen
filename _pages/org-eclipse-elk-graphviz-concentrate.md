@@ -13,7 +13,6 @@ type: option
 **Default Value:** | `false` (as defined in org.eclipse.elk.graphviz)
 **Applies To:** | parents
 
-
 ### Description
-Merges multiedges into a single edge and causes partially parallel edges to share part of their paths.
 
+Merges multiedges into a single edge and causes partially parallel edges to share part of their paths.

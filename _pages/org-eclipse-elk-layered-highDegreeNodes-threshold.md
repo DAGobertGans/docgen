@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.highDegreeNodes.treatment](org-eclipse-elk-layered-highDegreeNodes-treatment)
 **Containing Groups:** | [highDegreeNodes](org-eclipse-elk-layered-highDegreeNodes)
 
-
 ### Description
-Whether a node is considered to have a high degree.
 
+Whether a node is considered to have a high degree.

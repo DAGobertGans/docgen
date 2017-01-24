@@ -16,7 +16,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.inLayerSpacingFactor
 **Containing Groups:** | [spacing](org-eclipse-elk-layered-spacing)
 
-
 ### Description
-Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.
 
+Factor by which the usual spacing is multiplied to determine the in-layer spacing between objects.

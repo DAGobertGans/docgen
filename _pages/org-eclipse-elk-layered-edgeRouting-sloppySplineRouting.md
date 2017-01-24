@@ -14,7 +14,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.edgeRouting](org-eclipse-elk-edgeRouting)
 **Containing Groups:** | [edgeRouting](org-eclipse-elk-layered-edgeRouting)
 
-
 ### Description
-Use less spline control points at the start and end of an edge. Might lead to crossings edge/node overlap.
 
+Use less spline control points at the start and end of an edge. Might lead to crossings edge/node overlap.

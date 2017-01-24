@@ -12,7 +12,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.separateConnComp
 
-
 ### Description
-Whether each connected component should be processed separately.
 
+Whether each connected component should be processed separately.

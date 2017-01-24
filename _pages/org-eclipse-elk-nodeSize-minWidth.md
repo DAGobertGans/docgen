@@ -14,5 +14,3 @@ type: option
 **Lower Bound:** | `0.0`
 **Applies To:** | nodes
 **Containing Groups:** | [nodeSize](org-eclipse-elk-nodeSize)
-
-

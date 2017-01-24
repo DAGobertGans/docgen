@@ -15,7 +15,6 @@ type: option
 **Applies To:** | edges
 **Containing Groups:** | [priority](org-eclipse-elk-layered-priority)
 
-
 ### Description
-Defines how important it is to keep an edge straight, i.e. aligned with one of the two axes. This option is evaluated during node placement.
 
+Defines how important it is to keep an edge straight, i.e. aligned with one of the two axes. This option is evaluated during node placement.

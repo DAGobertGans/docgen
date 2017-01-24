@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing to be preserved between nodes and edges.
 
+Spacing to be preserved between nodes and edges.

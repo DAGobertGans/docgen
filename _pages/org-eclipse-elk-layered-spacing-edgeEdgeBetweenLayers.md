@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-layered-spacing)
 
-
 ### Description
-Spacing to be preserved between pairs of edges that are routed between the same pair of layers. Note that 'spacing.edgeEdge' is used for the spacing between pairs of edges crossing the same layer.
 
+Spacing to be preserved between pairs of edges that are routed between the same pair of layers. Note that 'spacing.edgeEdge' is used for the spacing between pairs of edges crossing the same layer.

@@ -15,7 +15,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.maxAnimTime
 
-
 ### Description
-The maximal time for animations, in milliseconds.
 
+The maximal time for animations, in milliseconds.

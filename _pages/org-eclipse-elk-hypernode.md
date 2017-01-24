@@ -14,7 +14,6 @@ type: option
 **Applies To:** | nodes
 **Legacy Id:** | de.cau.cs.kieler.hypernode
 
-
 ### Description
-Whether the node should be handled as a hypernode.
 
+Whether the node should be handled as a hypernode.

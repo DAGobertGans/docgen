@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.layoutPartitions
 **Containing Groups:** | [partitioning](org-eclipse-elk-partitioning)
 
-
 ### Description
-Whether to activate partitioned layout.
 
+Whether to activate partitioned layout.

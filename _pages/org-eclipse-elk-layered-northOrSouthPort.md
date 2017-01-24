@@ -14,7 +14,6 @@ type: option
 **Applies To:** | ports
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.northOrSouthPort
 
-
 ### Description
-Specifies that this port can either be placed on the north side of a node or on the south side (if port constraints permit)
 
+Specifies that this port can either be placed on the north side of a node or on the south side (if port constraints permit)

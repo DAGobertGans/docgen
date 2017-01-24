@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.progressBar
 
-
 ### Description
-Whether a progress bar shall be displayed during layout computations.
 
+Whether a progress bar shall be displayed during layout computations.

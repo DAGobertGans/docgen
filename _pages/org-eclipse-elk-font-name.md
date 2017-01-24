@@ -14,7 +14,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.fontName
 **Containing Groups:** | [font](org-eclipse-elk-font)
 
-
 ### Description
-Font name used for a label.
 
+Font name used for a label.

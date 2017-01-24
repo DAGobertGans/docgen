@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.nodeLabelInset
 **Containing Groups:** | [nodeLabels](org-eclipse-elk-nodeLabels)
 
-
 ### Description
-Define padding for node labels that are placed inside of a node.
 
+Define padding for node labels that are placed inside of a node.

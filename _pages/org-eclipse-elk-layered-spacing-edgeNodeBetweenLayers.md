@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-layered-spacing)
 
-
 ### Description
-The spacing to be preserved between nodes and edges that are routed next to the node's layer. For the spacing between nodes and edges that cross the node's layer 'spacing.edgeNode' is used.
 
+The spacing to be preserved between nodes and edges that are routed next to the node's layer. For the spacing between nodes and edges that cross the node's layer 'spacing.edgeNode' is used.

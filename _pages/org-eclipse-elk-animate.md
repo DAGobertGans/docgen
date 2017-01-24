@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.animate
 
-
 ### Description
-Whether the shift from the old layout to the new computed layout shall be animated.
 
+Whether the shift from the old layout to the new computed layout shall be animated.

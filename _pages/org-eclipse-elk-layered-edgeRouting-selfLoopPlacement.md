@@ -9,11 +9,9 @@ type: option
 **Identifier:** | org.eclipse.elk.layered.edgeRouting.selfLoopPlacement
 **Meta Data Provider:** | properties.LayeredMetaDataProvider
 **Value Type:** | `org.eclipse.elk.alg.layered.properties.SelfLoopPlacement` (Enum)
-**Possible Values:** | `EQUALLY_DISTRIBUTED`, `NORTH_SEQUENCE`, `NORTH_STACKED`
+**Possible Values:** | `EQUALLY_DISTRIBUTED`<br>`NORTH_SEQUENCE`<br>`NORTH_STACKED`
 **Default Value:** | `SelfLoopPlacement.NORTH_STACKED` (as defined in org.eclipse.elk.layered)
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.splines.selfLoopPlacement
 **Dependencies:** | [org.eclipse.elk.edgeRouting](org-eclipse-elk-edgeRouting)
 **Containing Groups:** | [edgeRouting](org-eclipse-elk-layered-edgeRouting)
-
-

@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing to be preserved between any two edges. Note that while this can somewhat easily be satisfied for the segments of orthogonally drawn edges, it is harder for general polylines or splines.
 
+Spacing to be preserved between any two edges. Note that while this can somewhat easily be satisfied for the segments of orthogonally drawn edges, it is harder for general polylines or splines.

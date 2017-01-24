@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.debugMode
 
-
 ### Description
-Whether additional debug information shall be generated.
 
+Whether additional debug information shall be generated.

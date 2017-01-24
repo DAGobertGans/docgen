@@ -14,11 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Eclipse Layout Kernel Documentation
-#email: dag@informatik.uni-kiel.de
-description: >
-  Melk aka elkm files contain information about options and properties of layout algorithms.
-  This is used to generate markdown documenting the means of configuration.
-  The point of this github-page is to use Jekyll to compile the markdown into a simple site.
 baseurl: "/docgen"
 url: "http://DAGobertGans.github.io"
 github_username:  DAGobertGans

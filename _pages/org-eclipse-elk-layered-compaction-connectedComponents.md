@@ -16,7 +16,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.separateConnectedComponents](org-eclipse-elk-separateConnectedComponents)
 **Containing Groups:** | [compaction](org-eclipse-elk-layered-compaction)
 
-
 ### Description
-Tries to further compact components (disconnected sub-graphs).
 
+Tries to further compact components (disconnected sub-graphs).

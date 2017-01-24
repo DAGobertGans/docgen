@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Dependencies:** | [org.eclipse.elk.force.model](org-eclipse-elk-force-model)
 
-
 ### Description
-The temperature is used as a scaling factor for particle displacements.
 
+The temperature is used as a scaling factor for particle displacements.

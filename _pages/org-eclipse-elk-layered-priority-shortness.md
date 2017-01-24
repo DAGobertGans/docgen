@@ -15,7 +15,6 @@ type: option
 **Applies To:** | edges
 **Containing Groups:** | [priority](org-eclipse-elk-layered-priority)
 
-
 ### Description
-Defines how important it is to keep an edge as short as possible. This option is evaluated during the layering phase.
 
+Defines how important it is to keep an edge as short as possible. This option is evaluated during the layering phase.

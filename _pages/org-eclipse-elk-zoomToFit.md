@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.zoomToFit
 
-
 ### Description
-Whether the zoom level shall be set to view the whole diagram after layout.
 
+Whether the zoom level shall be set to view the whole diagram after layout.

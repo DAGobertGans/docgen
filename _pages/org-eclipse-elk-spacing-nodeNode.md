@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.spacing
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-The minimal distance to be preserved between each two nodes.
 
+The minimal distance to be preserved between each two nodes.

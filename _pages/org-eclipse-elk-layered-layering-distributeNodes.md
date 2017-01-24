@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.distributeNodes
 **Containing Groups:** | [layering](org-eclipse-elk-layered-layering)
 
-
 ### Description
-Whether wide nodes should be distributed to several layers.
 
+Whether wide nodes should be distributed to several layers.

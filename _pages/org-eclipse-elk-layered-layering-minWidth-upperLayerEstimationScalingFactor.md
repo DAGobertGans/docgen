@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
 **Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [minWidth](org-eclipse-elk-layered-layering-minWidth)
 
-
 ### Description
-Multiplied with Upper Bound On Width for defining an upper bound on the width of layers which haven't been determined yet, but whose maximum width had been (roughly) estimated by the MinWidth algorithm. Compensates for too high estimations. If set to '-1' multiple values are tested and the best result is selected.
 
+Multiplied with Upper Bound On Width for defining an upper bound on the width of layers which haven't been determined yet, but whose maximum width had been (roughly) estimated by the MinWidth algorithm. Compensates for too high estimations. If set to '-1' multiple values are tested and the best result is selected.

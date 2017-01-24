@@ -12,7 +12,6 @@ type: option
 **Lower Bound:** | `ExclusiveBounds.greaterThan(0)`
 **Applies To:** | parents
 
-
 ### Description
-Terminating condition. If the length squared of all energy gradients are less than epsilon, the algorithm stops.
 
+Terminating condition. If the length squared of all energy gradients are less than epsilon, the algorithm stops.

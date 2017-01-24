@@ -15,7 +15,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
 **Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [coffmanGraham](org-eclipse-elk-layered-layering-coffmanGraham)
 
-
 ### Description
-The maximum number of nodes allowed per layer.
 
+The maximum number of nodes allowed per layer.

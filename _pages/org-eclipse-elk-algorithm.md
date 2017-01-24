@@ -11,7 +11,6 @@ type: option
 **Value Type:** | `java.lang.String`
 **Applies To:** | parents
 
-
 ### Description
-Select a specific layout algorithm.
 
+Select a specific layout algorithm.

@@ -13,7 +13,6 @@ type: option
 **Applies To:** | nodes, ports, labels
 **Legacy Id:** | de.cau.cs.kieler.position
 
-
 ### Description
-The position of a node, port, or label. This is used by the 'Fixed Layout' algorithm to specify a pre-defined position.
 
+The position of a node, port, or label. This is used by the 'Fixed Layout' algorithm to specify a pre-defined position.

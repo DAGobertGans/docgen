@@ -12,7 +12,6 @@ type: option
 **Default Value:** | `10e-4f` (as defined in org.eclipse.elk.stress)
 **Applies To:** | parents
 
-
 ### Description
-Termination criterion for the iterative process.
 
+Termination criterion for the iterative process.

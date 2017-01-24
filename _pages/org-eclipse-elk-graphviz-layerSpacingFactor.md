@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `ExclusiveBounds.greaterThan(0)`
 **Applies To:** | parents
 
-
 ### Description
-Factor for the spacing of different layers (ranks).
 
+Factor for the spacing of different layers (ranks).

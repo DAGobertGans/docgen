@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
 
-
 ### Description
-Preserves the order of nodes within a layer but still minimizes crossings between edges connecting long edge dummies. Requires a crossing minimization strategy that is able to process 'in-layer' constraints.
 
+Preserves the order of nodes within a layer but still minimizes crossings between edges connecting long edge dummies. Derives the desired order from positions specified by the 'org.eclipse.elk.position' layout option. Requires a crossing minimization strategy that is able to process 'in-layer' constraints.

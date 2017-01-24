@@ -12,7 +12,6 @@ type: option
 **Default Value:** | `Integer.MAX_VALUE` (as defined in org.eclipse.elk.stress)
 **Applies To:** | parents
 
-
 ### Description
-Maximum number of performed iterations. Takes higher precedence than 'epsilon'.
 
+Maximum number of performed iterations. Takes higher precedence than 'epsilon'.

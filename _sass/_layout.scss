@@ -1,10 +1,9 @@
 body {
 	margin: 0;
-	background: #fff;//#f7eedd;/*quarterspanishwhite;*/
+	background: #fff;
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
-	//line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
 }
 h1,
@@ -13,29 +12,17 @@ h3 {
 	font-weight: 600;
 	color: $font-color;
 	font-family: $heading-font;
-	//line-height: 1.5;
 }
 h1 {
-    //margin: 7px;
-	color: $heading-font-color;//$main;
+	color: $h1-font-color;
 	font-size: 2.5em;
-	a,
-	a:visited {
-		text-decoration: none;
-		color: $main;
-	}
 }
 h2 {
 	font-size: 2em;
 }
 a {
 	color: $link-color;
-	/*font-weight: bold;*/
-}
-a:visited {
-	color: $link-color;
-	text-decoration: underline;
-	/*font-weight: bold;*/
+	text-decoration: none;
 }
 a:hover {
 	color: $link-hover-color;
@@ -48,21 +35,21 @@ span.inactive {
     }
 }
 header {
-	background: $header;
+	background: $header-bg-color;
 	padding: 0px 10px;
 	text-align: center;
-    
-	//height: 15vh;
-	
-	//display: flex;
 	flex: 100%;
 	justify-content: center;
 	align-items: center;
 	h1 {
+	    color: $header-font-color;
 	    margin: 7px;
-	    
 	    @media screen and (max-width: 900px) {
 	        font-size: 1em;
+	    }
+	    a, a:visited {
+		    text-decoration: none;
+		    color: $header-font-color;
 	    }
 	}
 }
@@ -76,76 +63,21 @@ main {
 	max-width: $content-width;
 	margin: 0 auto;
 }
-.back-btn {
-    margin: 30px;
-    text-align: center;
-    font-family: $font-style;
-	font-size: 1em;
-}
-
-/* Aside 
-
-aside {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: #fff;
-	width: 100%;
-	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
-	nav {
-		float: left;
-		max-width: 800px;
-		margin: 0 auto;
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			li {
-				float: left;
-				position: relative;
-				a {
-					text-decoration: none;
-					display: block;
-					padding: 15px;
-					font-family: 'Muli', sans-serif;
-					line-height: 20px;
-					margin-bottom: -1px;
-					box-shadow: 0;
-					&:hover,
-					&:active {
-						background: $header;
-						text-decoration: none;
-						color: $main;
-					}
-				}
-			}
-		}
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
-	}
-}*/
 li.box {
     list-style-type: none;
 }
 li.box_done {
     list-style-type: none;
 }
- table {
+table {
     border-collapse: collapse;
 }
-
 table, th, td {
     border: 1px solid lightgrey;
 }
 th, td {
     padding: 5px 10px;
 }
-
 aside {
     margin: 5px 0px;
     ul {
@@ -153,7 +85,6 @@ aside {
         margin: 0;
         padding: 0;
         width: 100%;
-        /*background-color: #f1f1f1;*/
         ul {
             font-weight: normal;
         }
@@ -161,14 +92,13 @@ aside {
     li a {
         display: block;
         color: $link-color;
-	    /*font-weight: bold;*/
         padding: 8px 16px;
         text-decoration: none;
     }
     li a.active {
-        background: $header;
+        background: $header-bg-color;
 		text-decoration: none;
-		color: $main;
+		color: $link-active-color;
     }
 }
 aside.wiki-aside {
@@ -185,7 +115,6 @@ aside.wiki-aside {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
 .flex-main {
     width: $content-width;
     @media screen and (max-width: 1201px) {
@@ -194,40 +123,39 @@ aside.wiki-aside {
 }
 .flex-nav {
     width: 300px;
-    
-    #menu-toggle {display: none;}
-  
-    .label-toggle {display: none;}
-    
+    #menu-toggle {
+        display: none;
+    }
+    .label-toggle {
+        display: none;
+    }
     @media screen and (max-width: 1201px) {
         ul {
-          height: 0;
-          opacity: 0;
-          transition: all 1s ease;
-          visibility: hidden;
+            height: 0;
+            opacity: 0;
+            transition: all 1s ease;
+            visibility: hidden;
         }
-        
       
         #menu-toggle:checked ~ ul {
-          opacity: 1;
-          height: auto;
-          visibility: visible;
-          ul {
-              opacity: 1;
-              height: auto;
-              visibility: visible;
-          }
+            opacity: 1;
+            height: auto;
+            visibility: visible;
+            ul {
+                opacity: 1;
+                height: auto;
+                visibility: visible;
+            }
         }
         
         .label-toggle {
-          background: linear-gradient(to bottom, $main 0%, $main 20%, transparent 20%, transparent 40%, $main 40%, $main 60%, transparent 60%, transparent 80%, $main 80%, $main 100%); //Gradient Hamburger
-          cursor: pointer;
-          display: block;
-          //float: top;
-          height: 30px;
-          margin: 1em;
-          margin-top: -30px;
-          width: 30px;
+            background: linear-gradient(to bottom, $main 0%, $main 20%, transparent 20%, transparent 40%, $main 40%, $main 60%, transparent 60%, transparent 80%, $main 80%, $main 100%); //Gradient Hamburger
+            cursor: pointer;
+            display: block;
+            height: 30px;
+            margin: 1em;
+            margin-top: -30px;
+            width: 30px;
         }
     }
 }
@@ -254,9 +182,8 @@ aside.wiki-aside {
         text-decoration: none;
     }
     li a.active {
-        background: $header;
+        background: $header-bg-color;
 		text-decoration: none;
-		color: $main;
+		color: $link-active-color;
     }
-
 }

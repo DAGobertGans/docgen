@@ -14,7 +14,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.edgeRouting](org-eclipse-elk-edgeRouting), [org.eclipse.elk.layered.edgeRouting.sloppySplineRouting](org-eclipse-elk-layered-edgeRouting-sloppySplineRouting)
 **Containing Groups:** | [edgeRouting](org-eclipse-elk-layered-edgeRouting)
 
-
 ### Description
-Spacing factor for routing area between layers when using sloppy spline routing.
 
+Spacing factor for routing area between layers when using sloppy spline routing.

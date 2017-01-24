@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `0`
 **Applies To:** | edges
 
-
 ### Description
-Determines how many bend points are added to the edge; such bend points are regarded as repelling particles in the force model
 
+Determines how many bend points are added to the edge; such bend points are regarded as repelling particles in the force model

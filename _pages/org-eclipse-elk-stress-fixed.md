@@ -12,7 +12,6 @@ type: option
 **Default Value:** | `false` (as defined in org.eclipse.elk.stress)
 **Applies To:** | nodes
 
-
 ### Description
-Prevent that the node is moved by the layout algorithm.
 
+Prevent that the node is moved by the layout algorithm.

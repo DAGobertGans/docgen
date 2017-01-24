@@ -7,8 +7,6 @@ layout: default
 	<main>
 		<article>
             {{ content | replace: '<li>[ ]', '<li class = "box"><input type="checkbox" class="task-list-item-checkbox" disabled="">' | replace: '<li>[x]', '<li class = "box_done"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled="">'  }}
-            
-            <input class="back-btn" type="button" value="Back" onClick="history.go(-1);return true;">
 		</article>
 	</main>
 </div>

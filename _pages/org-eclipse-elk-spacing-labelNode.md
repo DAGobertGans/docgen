@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.labelSpacing
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing to be preserved between labels and the border of node they are associated with. Note that the placement of a label is influenced by the 'nodelabels.placement' option.
 
+Spacing to be preserved between labels and the border of node they are associated with. Note that the placement of a label is influenced by the 'nodelabels.placement' option.

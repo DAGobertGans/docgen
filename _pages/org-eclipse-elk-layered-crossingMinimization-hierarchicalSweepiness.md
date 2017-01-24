@@ -13,7 +13,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [crossingMinimization](org-eclipse-elk-layered-crossingMinimization)
 
-
 ### Description
-How likely it is to use cross-hierarchy (1) vs bottom-up (-1).
 
+How likely it is to use cross-hierarchy (1) vs bottom-up (-1).

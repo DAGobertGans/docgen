@@ -12,7 +12,6 @@ type: option
 **Default Value:** | `100f` (as defined in org.eclipse.elk.stress)
 **Applies To:** | parents, edges
 
-
 ### Description
-Either specified for parent nodes or for individual edges, where the latter takes higher precedence.
 
+Either specified for parent nodes or for individual edges, where the latter takes higher precedence.

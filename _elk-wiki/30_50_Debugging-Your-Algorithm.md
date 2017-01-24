@@ -44,4 +44,4 @@ Open the layout graph view by clicking _Window_ -> _Show View_ -> _Other_ and se
 
 # Debug Files
 
-The ELK preference page (see above) contains another setting: _Debug graph output_. Enabling this will cause the `DiagramLayoutEngine` to save the layout graph just before automatic layout is run. The graphs are placed in your user folder, in a subfolder called `tmp/layout`. The graph files can be displayed by the layout graph view, even though that usually is not very helpful since they may not contain any valid layout data yet.
+The ELK preference page (see above) contains another setting: _Debug graph output_. Enabling this will cause the `DiagramLayoutEngine` to save the layout graph just before automatic layout is run. The graphs are placed in your user folder, in a subfolder called `elk/diagram_layout_engine`. The graph files can be displayed by the layout graph view, even though that usually is not very helpful since they may not contain any valid layout data yet.

@@ -15,7 +15,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.thoroughness
 
-
 ### Description
-How much effort should be spent to produce a nice layout.
 
+How much effort should be spent to produce a nice layout.

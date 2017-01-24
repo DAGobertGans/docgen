@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-The minimal distance to be preserved between a label and the edge it is associated with. Note that the placement of a label is influenced by the 'edgelabels.placement' option.
 
+The minimal distance to be preserved between a label and the edge it is associated with. Note that the placement of a label is influenced by the 'edgelabels.placement' option.

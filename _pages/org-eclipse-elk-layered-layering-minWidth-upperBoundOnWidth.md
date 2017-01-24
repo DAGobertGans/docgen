@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
 **Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [minWidth](org-eclipse-elk-layered-layering-minWidth)
 
-
 ### Description
-Defines a loose upper bound on the width of the MinWidth layerer. If set to '-1' multiple values are tested and the best result is selected.
 
+Defines a loose upper bound on the width of the MinWidth layerer. If set to '-1' multiple values are tested and the best result is selected.

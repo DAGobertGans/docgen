@@ -14,7 +14,6 @@ type: option
 **Applies To:** | nodes
 **Legacy Id:** | de.cau.cs.kieler.commentBox
 
-
 ### Description
-Whether the node should be regarded as a comment box instead of a regular node. In that case its placement should be similar to how labels are handled. Any edges incident to a comment box specify to which graph elements the comment is related.
 
+Whether the node should be regarded as a comment box instead of a regular node. In that case its placement should be similar to how labels are handled. Any edges incident to a comment box specify to which graph elements the comment is related.

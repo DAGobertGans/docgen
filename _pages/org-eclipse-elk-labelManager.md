@@ -12,7 +12,6 @@ type: option
 **Value Type:** | `org.eclipse.elk.core.labels.ILabelManager`
 **Applies To:** | parents, labels
 
-
 ### Description
-Label managers can shorten labels upon a layout algorithm's request.
 
+Label managers can shorten labels upon a layout algorithm's request.

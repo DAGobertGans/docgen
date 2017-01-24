@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.feedBackEdges
 
-
 ### Description
-Whether feedback edges should be highlighted by routing around the nodes.
 
+Whether feedback edges should be highlighted by routing around the nodes.

@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.borderSpacing
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing to be preserved between pairs of connected components. This option is only relevant if 'separateConnectedComponents' is activated.
 
+Spacing to be preserved between pairs of connected components. This option is only relevant if 'separateConnectedComponents' is activated.

@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.labelSpacing
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Determines the amount of space to be left between two labels of the same graph element.
 
+Determines the amount of space to be left between two labels of the same graph element.

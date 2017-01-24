@@ -16,7 +16,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.edgeSpacingFactor
 **Containing Groups:** | [spacing](org-eclipse-elk-layered-spacing)
 
-
 ### Description
-Factor by which the object spacing is multiplied to arrive at the minimal spacing between edges.
 
+Factor by which the object spacing is multiplied to arrive at the minimal spacing between edges.

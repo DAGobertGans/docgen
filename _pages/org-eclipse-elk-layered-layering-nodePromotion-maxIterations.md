@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.layering.nodePromotion.strategy](org-eclipse-elk-layered-layering-nodePromotion-strategy)
 **Containing Groups:** | [layering](org-eclipse-elk-layered-layering) -> [nodePromotion](org-eclipse-elk-layered-layering-nodePromotion)
 
-
 ### Description
-Limits the number of iterations for node promotion.
 
+Limits the number of iterations for node promotion.

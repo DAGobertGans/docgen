@@ -17,7 +17,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.nodePlacement.strategy](org-eclipse-elk-layered-nodePlacement-strategy)
 **Containing Groups:** | [nodePlacement](org-eclipse-elk-layered-nodePlacement) -> [linearSegments](org-eclipse-elk-layered-nodePlacement-linearSegments)
 
-
 ### Description
-Dampens the movement of nodes to keep the diagram from getting too large.
 
+Dampens the movement of nodes to keep the diagram from getting too large.

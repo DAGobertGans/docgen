@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Containing Groups:** | [spacing](org-eclipse-elk-spacing)
 
-
 ### Description
-Spacing to be preserved between labels and the ports they are associated with. Note that the placement of a label is influenced by the 'portlabels.placement' option.
 
+Spacing to be preserved between labels and the ports they are associated with. Note that the placement of a label is influenced by the 'portlabels.placement' option.

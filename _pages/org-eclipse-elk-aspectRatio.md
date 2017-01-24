@@ -14,7 +14,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.aspectRatio
 
-
 ### Description
-The desired aspect ratio of the drawing, that is the quotient of width by height.
 
+The desired aspect ratio of the drawing, that is the quotient of width by height.

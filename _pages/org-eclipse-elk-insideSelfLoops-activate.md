@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.selfLoopInside
 **Containing Groups:** | [insideSelfLoops](org-eclipse-elk-insideSelfLoops)
 
-
 ### Description
-Whether this node allows to route self loops inside of it instead of around it. If set to true, this will make the node a compound node if it isn't already, and will require the layout algorithm to support compound nodes with hierarchical ports.
 
+Whether this node allows to route self loops inside of it instead of around it. If set to true, this will make the node a compound node if it isn't already, and will require the layout algorithm to support compound nodes with hierarchical ports.

@@ -15,7 +15,6 @@ type: option
 **Applies To:** | parents
 **Legacy Id:** | de.cau.cs.kieler.minAnimTime
 
-
 ### Description
-The minimal time for animations, in milliseconds.
 
+The minimal time for animations, in milliseconds.

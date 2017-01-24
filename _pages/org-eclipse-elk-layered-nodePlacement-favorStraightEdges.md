@@ -13,7 +13,6 @@ type: option
 **Dependencies:** | [org.eclipse.elk.layered.nodePlacement.strategy](org-eclipse-elk-layered-nodePlacement-strategy)
 **Containing Groups:** | [nodePlacement](org-eclipse-elk-layered-nodePlacement)
 
-
 ### Description
-Favor straight edges over a balanced node placement. The default behavior is determined automatically based on the used 'edgeRouting'. For an orthogonal style it is set to true, for all other styles to false.
 
+Favor straight edges over a balanced node placement. The default behavior is determined automatically based on the used 'edgeRouting'. For an orthogonal style it is set to true, for all other styles to false.

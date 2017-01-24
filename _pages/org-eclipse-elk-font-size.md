@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.fontSize
 **Containing Groups:** | [font](org-eclipse-elk-font)
 
-
 ### Description
-Font size used for a label.
 
+Font size used for a label.

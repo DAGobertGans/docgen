@@ -12,7 +12,6 @@ type: option
 **Default Value:** | `-25` (as defined in org.eclipse.elk.graphviz)
 **Applies To:** | edges
 
-
 ### Description
-Angle between head / tail positioned edge labels and the corresponding edge.
 
+Angle between head / tail positioned edge labels and the corresponding edge.

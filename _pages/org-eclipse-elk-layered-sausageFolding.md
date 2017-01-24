@@ -15,7 +15,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.klay.layered.sausageFolding
 **Dependencies:** | [org.eclipse.elk.layered.layering.strategy](org-eclipse-elk-layered-layering-strategy)
 
-
 ### Description
-Whether long sausages should be folded up nice and tight.
 
+Whether long sausages should be folded up nice and tight.

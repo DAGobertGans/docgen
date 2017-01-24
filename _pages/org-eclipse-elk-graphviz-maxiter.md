@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `1`
 **Applies To:** | parents
 
-
 ### Description
-The maximum number of iterations.
 
+The maximum number of iterations.

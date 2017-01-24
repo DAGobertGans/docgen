@@ -14,7 +14,6 @@ type: option
 **Legacy Id:** | de.cau.cs.kieler.partition
 **Containing Groups:** | [partitioning](org-eclipse-elk-partitioning)
 
-
 ### Description
-Partition to which the node belongs to. If 'layoutPartitions' is true, all nodes are expected to have a partition.
 
+Partition to which the node belongs to. If 'layoutPartitions' is true, all nodes are expected to have a partition.

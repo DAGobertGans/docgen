@@ -13,7 +13,6 @@ type: option
 **Lower Bound:** | `0.0`
 **Applies To:** | edges
 
-
 ### Description
-Distance of head / tail positioned edge labels to the source or target node.
 
+Distance of head / tail positioned edge labels to the source or target node.

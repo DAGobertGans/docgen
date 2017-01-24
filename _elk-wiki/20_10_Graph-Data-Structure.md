@@ -57,3 +57,14 @@ Inclusion trees capture the hierarchical structure of a graph. See below for the
 * **Root Node:** The root of the inclusion tree.
 
     * *Root Node of a Graph:* The lowest common ancestor of all nodes in the graph.
+    
+
+# Graph Data Structure
+
+## The Meta Model
+
+TODO Describe
+
+## Programming With the Graph Data Structure
+
+TODO Describe

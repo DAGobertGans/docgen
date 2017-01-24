@@ -15,7 +15,6 @@ type: option
 **Applies To:** | edges
 **Containing Groups:** | [priority](org-eclipse-elk-layered-priority)
 
-
 ### Description
-Defines how important it is to have a certain edge point into the direction of the overall layout. This option is evaluated during the cycle breaking phase.
 
+Defines how important it is to have a certain edge point into the direction of the overall layout. This option is evaluated during the cycle breaking phase.
