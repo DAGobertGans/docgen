@@ -1,3 +1,4 @@
-# docgen
-testing gh-pages with automatically generated documentation
-https://dagobertgans.github.io/docgen/
+# Eclipse Layout Kernel Documentation
+
+automatically generated from *.melk files
+https://dagobertgans.github.io/docs/
