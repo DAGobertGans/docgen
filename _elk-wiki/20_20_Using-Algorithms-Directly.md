@@ -6,7 +6,7 @@ parent: Tool Developers
 ---
 All layout algorithms implemented in the Eclipse Layout Kernel can be called directly. To do so, you must have an instance of our KGraph data structure that can be fed to the layout algorithm, which will then compute a layout for the graph's elements.
 
-**Warning:** This is very low-level stuff. Most people will want to use [the next layer of abstraction](Using-Plain-Java-Layout), which also works with pure Java applications.
+**Warning:** This is very low-level stuff. Most people will want to use [the next layer of abstraction](20_30_Using-Plain-Java-Layout), which also works with pure Java applications.
 
 
 # The Entry Point to Layout Algorithms
@@ -21,7 +21,7 @@ void dispose();
 
 Each layout algorithm provides a subclass of `AbstractLayoutProvider` that is the entry point to the algorithm. Using it is a matter of doing the following:
 
-1. Create a KGraph to be laid out (see our [graph documentation](Graph-Data-Structure) for how to do so). The KGraph will be based on the diagram you want your application to display.
+1. Create a KGraph to be laid out (see our [graph documentation](20_10_Graph-Data-Structure) for how to do so). The KGraph will be based on the diagram you want your application to display.
 
 1. Configure how the layout algorithm should layout your graph by setting <span class="inactive">**TODO** [layout properties](Layout-Properties)</span> on the graph's elements. Check the documentation of the layout algorithm you want to use for which layout properties it supports and what they do, exactly.
 

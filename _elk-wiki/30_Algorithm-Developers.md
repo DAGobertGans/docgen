@@ -16,7 +16,7 @@ Implementing your own layout algorithm basically consists of the following steps
 Note that we have deliberately left out the part of "pulling your hair out while trying to understand which wretched detail of your complicated algorithm causes it to fail spectacularly" (we've been there...).
 
 **Before you start:**
-This section assumes that you have basic knowledge of how the _Eclipse Layout Kernel_ works. You should at least have worked through the [Graph Data Structure](Graph-Data-Structure) and [Using Algorithms Directly](Using-Algorithms-Directly) sections.
+This section assumes that you have basic knowledge of how the _Eclipse Layout Kernel_ works. You should at least have worked through the [Graph Data Structure](20_10_Graph-Data-Structure) and [Using Algorithms Directly](20_20_Using-Algorithms-Directly) sections.
 
 **Once you are ready to start:**
 Use the navigation bar to the right to work your way through each of those steps.

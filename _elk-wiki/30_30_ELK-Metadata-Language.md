@@ -4,7 +4,7 @@ title: ELK Metadata Language
 type: wiki
 parent: Algorithm Developers
 ---
-As described [in other parts of the documentation](Using-Plain-Java-Layout), the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
+As described [in other parts of the documentation](20_30_Using-Plain-Java-Layout), the _Eclipse Layout Kernel_ relies on metadata about all available layout algorithms and the layout options they support. Supplying metadata for your layout algorithm is done by writing an _ELK Metadata File_ in our textual metadata language. The file is used by the ELK SDK to generate the following Java classes:
 
 * An `ILayoutMetaDataProvider` that contains `IProperty` objects for each layout option you declare, along with a method that registers these options and layout algorithm categories with the `LayoutMetaDataService`. It is this class that needs to be registered with ELK's extension point.
 * One `ILayoutMetaDataProvider` for each algorithm you declare. This contains one `IProperty` object for each layout option your algorithm supports (with the configured default value), as well as a method that registers your algorithm and its supported options with the `LayoutMetaDataService`. You should use the `IProperty` objects in this class to retrieve layout option values to ensure that you get correct defaults if an option is not set. These classes do not have to be registered with ELK's extension point because they are automatically registered through the main metadata class.
@@ -92,7 +92,7 @@ bundle {
 
 ## Options
 
-While [this section of our documentation](Layout-Options) describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described <span class="inactive">**TODO**[in the aforementioned piece of documentation](Layout-Properties)</span> to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
+While [this section of our documentation](20_10_20_Layout-Options) describes what layout options are and how to use them, this section focuses on making their mere existence known to the world. Doing so will cause the ELK SDK to generate `IProperty` constants in your generated `ILayoutMetaDataProvider` that you can use as described <span class="inactive">**TODO**[in the aforementioned piece of documentation](Layout-Properties)</span> to set layout option values. An option declaration can become rather complex, so here's what it generally looks like (we will go into the missing details below):
 
 ```
 // The option's ID, appended to the idPrefix declared in the bundle information
